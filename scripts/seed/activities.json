@@ -1,0 +1,3481 @@
+[
+  {
+    "slug": "pom-pom-sorting",
+    "title": "Pom Pom Sorting",
+    "category": "Fine Motor",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Sort soft pom poms into matching colored cups using little fingers.",
+    "materials": [
+      "Mixed-color pom poms",
+      "4 small cups or bowls",
+      "A tray"
+    ],
+    "steps": [
+      "Place a pom pom of each color into the bottom of each cup.",
+      "Spread the rest on the tray.",
+      "Show your child how to match one pom pom into the right cup.",
+      "Step back and let them work at their own pace."
+    ],
+    "benefits": [
+      "Pincer grasp",
+      "Color recognition",
+      "Concentration",
+      "Sorting & categorizing"
+    ],
+    "cleanup": "Tip the cups back onto the tray and store pom poms in a jar.",
+    "isFree": true
+  },
+  {
+    "slug": "tongs-transfer",
+    "title": "Tongs Transfer",
+    "category": "Fine Motor",
+    "ageMin": 24,
+    "duration": 12,
+    "mess": "Low",
+    "summary": "Move cotton balls from one bowl to another using kitchen tongs.",
+    "materials": [
+      "Child-safe tongs",
+      "Cotton balls or pom poms",
+      "Two bowls"
+    ],
+    "steps": [
+      "Place full bowl on the left, empty bowl on the right.",
+      "Demonstrate squeezing the tongs around one ball.",
+      "Transfer slowly across to the empty bowl.",
+      "Invite your child to try."
+    ],
+    "benefits": [
+      "Hand strength",
+      "Bilateral coordination",
+      "Focus"
+    ],
+    "cleanup": "Return cotton balls to a single bowl and rinse tongs.",
+    "isFree": true
+  },
+  {
+    "slug": "threading-pasta",
+    "title": "Threading Pasta",
+    "category": "Fine Motor",
+    "ageMin": 24,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Thread dry penne onto a shoelace to make a wearable necklace.",
+    "materials": [
+      "Dry penne pasta",
+      "Shoelace or pipe cleaner",
+      "Small bowl"
+    ],
+    "steps": [
+      "Tie a knot at one end of the lace.",
+      "Show how to pick up one piece of pasta.",
+      "Slide it onto the lace.",
+      "Repeat — tie the ends together when full."
+    ],
+    "benefits": [
+      "Pincer grasp",
+      "Hand-eye coordination",
+      "Patience"
+    ],
+    "cleanup": "Untie and store pasta in a sealed jar for reuse.",
+    "isFree": true
+  },
+  {
+    "slug": "playdough-pinching",
+    "title": "Playdough Pinching",
+    "category": "Fine Motor",
+    "ageMin": 18,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Pinch small pieces off a ball of playdough and roll them into beads.",
+    "materials": [
+      "A ball of soft playdough",
+      "A small plate",
+      "Optional rolling mat"
+    ],
+    "steps": [
+      "Set the playdough on the plate.",
+      "Demonstrate pinching off a pea-sized piece.",
+      "Roll between thumb and index finger.",
+      "Line the beads up along the edge."
+    ],
+    "benefits": [
+      "Finger isolation",
+      "Hand strength",
+      "Creativity"
+    ],
+    "cleanup": "Press all the beads back into a ball and store in an airtight container.",
+    "isFree": true
+  },
+  {
+    "slug": "sticker-peel",
+    "title": "Sticker Peel & Place",
+    "category": "Fine Motor",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Peel stickers from a sheet and place them inside drawn shapes on paper.",
+    "materials": [
+      "A sheet of round stickers",
+      "Plain paper",
+      "A marker"
+    ],
+    "steps": [
+      "Draw 8–10 circles on the paper.",
+      "Show your child how to lift the corner of a sticker.",
+      "Peel it off and press it inside a circle.",
+      "Continue until each circle is filled."
+    ],
+    "benefits": [
+      "Pincer grasp",
+      "Precision",
+      "Shape recognition"
+    ],
+    "cleanup": "Fold the paper and recycle, store leftover stickers flat.",
+    "isFree": true
+  },
+  {
+    "slug": "clothes-pin-clip",
+    "title": "Clothes Pin Clip",
+    "category": "Fine Motor",
+    "ageMin": 24,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Clip wooden clothes pins around the rim of a basket or cardboard circle.",
+    "materials": [
+      "6–10 wooden clothes pins",
+      "A small basket or cardboard plate"
+    ],
+    "steps": [
+      "Place the pins on a tray within reach.",
+      "Demonstrate squeezing one open with thumb and finger.",
+      "Clip it onto the rim.",
+      "Encourage your child to fill the rim."
+    ],
+    "benefits": [
+      "Hand strength",
+      "Pincer control",
+      "Bilateral coordination"
+    ],
+    "cleanup": "Unclip and store the pins in a small jar.",
+    "isFree": true
+  },
+  {
+    "slug": "button-snake",
+    "title": "Button Snake",
+    "category": "Fine Motor",
+    "ageMin": 30,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Slide large fabric squares with buttonholes onto a button-tipped ribbon.",
+    "materials": [
+      "Long ribbon",
+      "1 large button (sewn to one end)",
+      "4–6 felt squares with a slit in the middle"
+    ],
+    "steps": [
+      "Hold the button end of the ribbon.",
+      "Show your child how to push the button through a felt slit.",
+      "Slide the square down the ribbon.",
+      "Continue until all squares are on."
+    ],
+    "benefits": [
+      "Two-handed coordination",
+      "Buttoning prep",
+      "Sequencing"
+    ],
+    "cleanup": "Slide the squares off and roll the ribbon up.",
+    "isFree": false
+  },
+  {
+    "slug": "water-dropper",
+    "title": "Water Dropper Painting",
+    "category": "Fine Motor",
+    "ageMin": 30,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Use a pipette to drop colored water onto absorbent paper.",
+    "materials": [
+      "Pipette or dropper",
+      "Watercolor paper or paper towel",
+      "Cups of colored water",
+      "A tray"
+    ],
+    "steps": [
+      "Place the paper on the tray.",
+      "Show how to squeeze, dip, and release the dropper.",
+      "Let your child explore mixing colors drop by drop."
+    ],
+    "benefits": [
+      "Pincer & hand strength",
+      "Cause and effect",
+      "Color mixing"
+    ],
+    "cleanup": "Pour leftover water down the drain and lay paper flat to dry.",
+    "isFree": false
+  },
+  {
+    "slug": "coin-slot",
+    "title": "Coin Slot Drop",
+    "category": "Fine Motor",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Drop large wooden coins or buttons through a slot cut in a container lid.",
+    "materials": [
+      "Empty container with lid",
+      "Large wooden coins or buttons",
+      "Knife (adult use)"
+    ],
+    "steps": [
+      "Adult cuts a coin-shaped slot in the lid.",
+      "Set the container on the table.",
+      "Demonstrate dropping one coin through the slot.",
+      "Open the lid to reveal — repeat."
+    ],
+    "benefits": [
+      "Pincer grasp",
+      "Object permanence",
+      "Wrist rotation"
+    ],
+    "cleanup": "Empty container and store coins inside with the lid sealed.",
+    "isFree": false
+  },
+  {
+    "slug": "nuts-and-bolts",
+    "title": "Nuts and Bolts",
+    "category": "Fine Motor",
+    "ageMin": 30,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Match and twist large plastic nuts onto matching bolts.",
+    "materials": [
+      "Set of large plastic nuts and bolts",
+      "A small tray"
+    ],
+    "steps": [
+      "Spread nuts and bolts on the tray.",
+      "Demonstrate finding the matching pair.",
+      "Twist the nut on slowly.",
+      "Unscrew and start again."
+    ],
+    "benefits": [
+      "Rotational wrist motion",
+      "Problem solving",
+      "Matching"
+    ],
+    "cleanup": "Pair each set and return to a small zip bag.",
+    "isFree": false
+  },
+  {
+    "slug": "lacing-cards",
+    "title": "Lacing Cards",
+    "category": "Fine Motor",
+    "ageMin": 30,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Thread a shoelace through the holes around a cardboard shape.",
+    "materials": [
+      "Pre-punched cardboard shapes",
+      "Thick shoelace with taped end"
+    ],
+    "steps": [
+      "Knot one end of the lace through the first hole.",
+      "Show 'up through the hole, pull tight'.",
+      "Move to the next hole.",
+      "Continue around the shape."
+    ],
+    "benefits": [
+      "Hand-eye coordination",
+      "Sequencing",
+      "Pre-sewing skill"
+    ],
+    "cleanup": "Pull the lace out and stack the cards in a folder.",
+    "isFree": false
+  },
+  {
+    "slug": "eyedropper-ice",
+    "title": "Color Drop Ice Cubes",
+    "category": "Fine Motor",
+    "ageMin": 36,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Drip food-colored water onto a tray of plain ice cubes to watch them melt.",
+    "materials": [
+      "Ice cube tray of ice",
+      "Pipettes",
+      "Small cups of colored water",
+      "Shallow tray"
+    ],
+    "steps": [
+      "Set ice on the tray.",
+      "Show your child how to fill the pipette.",
+      "Squeeze drops onto each cube.",
+      "Watch the colors run as the ice melts."
+    ],
+    "benefits": [
+      "Pincer strength",
+      "Color awareness",
+      "Observation"
+    ],
+    "cleanup": "Pour melted water down the sink and dry the tray.",
+    "isFree": false
+  },
+  {
+    "slug": "rice-scoop",
+    "title": "Rice Scooping",
+    "category": "Fine Motor",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Medium",
+    "summary": "Scoop dry rice from one bowl to another using a small spoon.",
+    "materials": [
+      "Uncooked rice",
+      "Two bowls",
+      "Small spoon",
+      "Tray (to catch spills)"
+    ],
+    "steps": [
+      "Place one full bowl, one empty bowl on the tray.",
+      "Demonstrate one slow scoop and pour.",
+      "Hand the spoon to your child.",
+      "Let them transfer at their pace."
+    ],
+    "benefits": [
+      "Hand control",
+      "Wrist stability",
+      "Practical life skill"
+    ],
+    "cleanup": "Sweep spilled rice back into the bowl and seal.",
+    "isFree": false
+  },
+  {
+    "slug": "paper-tearing",
+    "title": "Paper Tearing Collage",
+    "category": "Fine Motor",
+    "ageMin": 24,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Tear colored paper into strips and glue them onto a sheet.",
+    "materials": [
+      "Colored paper scraps",
+      "Glue stick",
+      "Base sheet of paper"
+    ],
+    "steps": [
+      "Demonstrate pinching the paper and pulling outward.",
+      "Tear several strips together.",
+      "Glue them onto the base in any pattern.",
+      "Let dry flat."
+    ],
+    "benefits": [
+      "Bilateral coordination",
+      "Creativity",
+      "Finger strength"
+    ],
+    "cleanup": "Recycle scraps and cap the glue stick.",
+    "isFree": false
+  },
+  {
+    "slug": "pipe-cleaner-colander",
+    "title": "Pipe Cleaners & Colander",
+    "category": "Fine Motor",
+    "ageMin": 18,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Push pipe cleaners through the holes of an upside-down colander.",
+    "materials": [
+      "A colander",
+      "10–15 pipe cleaners"
+    ],
+    "steps": [
+      "Turn the colander upside down on the table.",
+      "Show how to push one pipe cleaner through a hole.",
+      "Encourage filling every hole.",
+      "Wiggle them to feel resistance."
+    ],
+    "benefits": [
+      "Precision",
+      "Hand-eye coordination",
+      "Spatial awareness"
+    ],
+    "cleanup": "Pull out the pipe cleaners and bundle them with a tie.",
+    "isFree": false
+  },
+  {
+    "slug": "stacking-rings",
+    "title": "Stacking Rings",
+    "category": "Fine Motor",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Stack rings on a central post in order from largest to smallest.",
+    "materials": [
+      "A classic stacking ring toy"
+    ],
+    "steps": [
+      "Remove all rings and place on a mat.",
+      "Demonstrate lifting the largest first.",
+      "Slide it onto the post.",
+      "Continue down to the smallest."
+    ],
+    "benefits": [
+      "Size discrimination",
+      "Sequencing",
+      "Hand control"
+    ],
+    "cleanup": "Restack the rings on the post when finished.",
+    "isFree": false
+  },
+  {
+    "slug": "nesting-cups",
+    "title": "Nesting Cups",
+    "category": "Fine Motor",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Nest a set of graduated cups inside each other or build a tower.",
+    "materials": [
+      "Set of nesting cups"
+    ],
+    "steps": [
+      "Spread the cups out on a mat.",
+      "Demonstrate placing the smallest into the next size.",
+      "Or build a tall tower.",
+      "Knock over and restart."
+    ],
+    "benefits": [
+      "Size awareness",
+      "Hand control",
+      "Cause and effect"
+    ],
+    "cleanup": "Nest all cups inside the largest one.",
+    "isFree": false
+  },
+  {
+    "slug": "magnetic-fishing",
+    "title": "Magnetic Fishing",
+    "category": "Fine Motor",
+    "ageMin": 30,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Catch paper fish with paper-clip mouths using a magnet on a string.",
+    "materials": [
+      "Paper fish with paper clips",
+      "Small magnet on a string",
+      "Shallow basket as 'pond'"
+    ],
+    "steps": [
+      "Place all fish in the basket.",
+      "Show your child how to lower the magnet.",
+      "Lift slowly when a fish attaches.",
+      "Place each catch in a cup."
+    ],
+    "benefits": [
+      "Wrist control",
+      "Patience",
+      "Cause and effect"
+    ],
+    "cleanup": "Remove paper clips into a small tin and store fish flat.",
+    "isFree": false
+  },
+  {
+    "slug": "zipper-board",
+    "title": "Zipper Practice Board",
+    "category": "Fine Motor",
+    "ageMin": 30,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Practice opening and closing a large zipper on a fabric board.",
+    "materials": [
+      "An old jacket or DIY zipper board"
+    ],
+    "steps": [
+      "Sit beside your child.",
+      "Demonstrate pinching the zipper pull.",
+      "Pull slowly down, then back up.",
+      "Let them try both directions."
+    ],
+    "benefits": [
+      "Pincer grasp",
+      "Self-dressing skill",
+      "Sequencing"
+    ],
+    "cleanup": "Leave the zipper open and store flat.",
+    "isFree": false
+  },
+  {
+    "slug": "velcro-strips",
+    "title": "Velcro Strips Stick & Pull",
+    "category": "Fine Motor",
+    "ageMin": 18,
+    "duration": 8,
+    "mess": "Low",
+    "summary": "Stick and unstick small velcro shapes onto a strip on a board.",
+    "materials": [
+      "Felt board or cardboard",
+      "Velcro dots or strips",
+      "Felt shapes"
+    ],
+    "steps": [
+      "Place all shapes on a tray.",
+      "Demonstrate pressing one onto the board.",
+      "Pull it off and replace.",
+      "Let your child cover the whole board."
+    ],
+    "benefits": [
+      "Finger strength",
+      "Cause and effect",
+      "Sensory feedback"
+    ],
+    "cleanup": "Stack shapes in a small dish.",
+    "isFree": false
+  },
+  {
+    "slug": "buckle-board",
+    "title": "Buckle Practice",
+    "category": "Fine Motor",
+    "ageMin": 30,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Open and close a row of seatbelt-style buckles on a board.",
+    "materials": [
+      "DIY buckle board or backpack with buckles"
+    ],
+    "steps": [
+      "Set the board flat on the table.",
+      "Demonstrate pressing the release tab.",
+      "Slide the two pieces back together.",
+      "Repeat slowly with each buckle."
+    ],
+    "benefits": [
+      "Two-handed coordination",
+      "Problem solving",
+      "Self-help skill"
+    ],
+    "cleanup": "Leave buckles fastened and store flat.",
+    "isFree": false
+  },
+  {
+    "slug": "clip-cards",
+    "title": "Clip Card Matching",
+    "category": "Fine Motor",
+    "ageMin": 30,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Clip a clothes pin next to the correct picture on a card.",
+    "materials": [
+      "Printable clip cards",
+      "Wooden clothes pins"
+    ],
+    "steps": [
+      "Lay one card on the table.",
+      "Discuss the picture together.",
+      "Show squeezing the pin onto the matching answer.",
+      "Move to the next card."
+    ],
+    "benefits": [
+      "Pincer strength",
+      "Visual discrimination",
+      "Early literacy / numeracy"
+    ],
+    "cleanup": "Remove the pins and stack cards in a folder.",
+    "isFree": false
+  },
+  {
+    "slug": "sponge-squeeze",
+    "title": "Sponge Squeeze Transfer",
+    "category": "Fine Motor",
+    "ageMin": 24,
+    "duration": 10,
+    "mess": "Medium",
+    "summary": "Soak a sponge in one bowl and squeeze the water into another.",
+    "materials": [
+      "Small sponge",
+      "Two bowls",
+      "Water",
+      "Towel"
+    ],
+    "steps": [
+      "Place one bowl of water and one empty bowl on a towel.",
+      "Dip the sponge until full.",
+      "Lift slowly and squeeze over the empty bowl.",
+      "Repeat until the first bowl is empty."
+    ],
+    "benefits": [
+      "Hand strength",
+      "Cause and effect",
+      "Practical life"
+    ],
+    "cleanup": "Wring the sponge out and lay flat to dry.",
+    "isFree": false
+  },
+  {
+    "slug": "dot-stamping",
+    "title": "Dot Stamping",
+    "category": "Fine Motor",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Press a dot marker or finger paint onto outlined circles on paper.",
+    "materials": [
+      "Dot markers or finger paint",
+      "Paper with circle outlines"
+    ],
+    "steps": [
+      "Set the paper down flat.",
+      "Demonstrate pressing the marker into one circle.",
+      "Lift and try the next.",
+      "Encourage full coverage."
+    ],
+    "benefits": [
+      "Hand control",
+      "Precision",
+      "Color recognition"
+    ],
+    "cleanup": "Cap markers and hang artwork to dry.",
+    "isFree": false
+  },
+  {
+    "slug": "cotton-ball-spoon",
+    "title": "Cotton Ball Spooning",
+    "category": "Fine Motor",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Move cotton balls from one bowl to another using a spoon.",
+    "materials": [
+      "Cotton balls",
+      "Two bowls",
+      "Tablespoon",
+      "Tray"
+    ],
+    "steps": [
+      "Set up bowls on the tray, balls in one.",
+      "Demonstrate scooping one ball.",
+      "Carry slowly across.",
+      "Tip it into the empty bowl."
+    ],
+    "benefits": [
+      "Wrist control",
+      "Concentration",
+      "Practical life"
+    ],
+    "cleanup": "Return cotton balls to one bowl and store.",
+    "isFree": false
+  },
+  {
+    "slug": "hole-punch",
+    "title": "Hole Punching",
+    "category": "Fine Motor",
+    "ageMin": 36,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Squeeze a hole punch around the edges of paper to create patterns.",
+    "materials": [
+      "Single hole punch",
+      "Construction paper",
+      "A small bowl for paper dots"
+    ],
+    "steps": [
+      "Hand your child the paper.",
+      "Show how to slide the edge into the punch.",
+      "Squeeze with both hands if needed.",
+      "Move along the edge."
+    ],
+    "benefits": [
+      "Hand strength",
+      "Bilateral coordination",
+      "Cause and effect"
+    ],
+    "cleanup": "Empty paper dots into the recycling bin.",
+    "isFree": false
+  },
+  {
+    "slug": "toothpick-cheese",
+    "title": "Toothpicks in Cheese",
+    "category": "Fine Motor",
+    "ageMin": 24,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Push toothpicks into a block of soft cheese or playdough.",
+    "materials": [
+      "Block of soft cheese or playdough",
+      "Pack of toothpicks",
+      "Small plate"
+    ],
+    "steps": [
+      "Place the block on the plate.",
+      "Demonstrate the pincer grip on a toothpick.",
+      "Push it into the surface.",
+      "Continue until full."
+    ],
+    "benefits": [
+      "Pincer grasp",
+      "Concentration",
+      "Hand-eye coordination"
+    ],
+    "cleanup": "Remove toothpicks into a small dish and recycle the block.",
+    "isFree": false
+  },
+  {
+    "slug": "ribbon-pull",
+    "title": "Ribbon Pull-Through Box",
+    "category": "Fine Motor",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Pull lengths of ribbon out through holes in a tissue box.",
+    "materials": [
+      "Empty tissue box",
+      "Assorted ribbons"
+    ],
+    "steps": [
+      "Thread ribbons through the box opening.",
+      "Show your child how to grasp and pull.",
+      "Encourage pulling slowly to see the full length.",
+      "Repack when done."
+    ],
+    "benefits": [
+      "Grasping",
+      "Cause and effect",
+      "Sensory exploration"
+    ],
+    "cleanup": "Restuff ribbons inside the box for next time.",
+    "isFree": false
+  },
+  {
+    "slug": "puzzle-knobs",
+    "title": "Knob Puzzles",
+    "category": "Fine Motor",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Lift wooden puzzle pieces out by the knob and return them to the correct spot.",
+    "materials": [
+      "A wooden knob puzzle"
+    ],
+    "steps": [
+      "Set the puzzle in front of your child.",
+      "Lift one piece out using the knob.",
+      "Talk about the shape underneath.",
+      "Help fit it back in place."
+    ],
+    "benefits": [
+      "Pincer grasp",
+      "Shape recognition",
+      "Problem solving"
+    ],
+    "cleanup": "Snap all pieces back in their slots.",
+    "isFree": false
+  },
+  {
+    "slug": "scissor-snipping",
+    "title": "Scissor Snipping",
+    "category": "Fine Motor",
+    "ageMin": 36,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Make small snips along the edge of paper strips with safety scissors.",
+    "materials": [
+      "Safety scissors",
+      "Paper strips (1 inch wide)",
+      "Bowl for clippings"
+    ],
+    "steps": [
+      "Hand your child the scissors thumb-up.",
+      "Hold the strip taut with your hand.",
+      "Show one open-close snip.",
+      "Catch clippings in the bowl."
+    ],
+    "benefits": [
+      "Scissor grip",
+      "Bilateral coordination",
+      "Hand strength"
+    ],
+    "cleanup": "Tip clippings into the recycling bin.",
+    "isFree": false
+  },
+  {
+    "slug": "sticky-wall",
+    "title": "Sticky Contact Paper Wall",
+    "category": "Fine Motor",
+    "ageMin": 12,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Press lightweight items (pom poms, leaves, feathers) onto a contact-paper sticky wall.",
+    "materials": [
+      "Roll of contact paper",
+      "Painter's tape",
+      "Soft items to stick"
+    ],
+    "steps": [
+      "Tape a sheet of contact paper sticky-side out at child height.",
+      "Show pressing one item on the surface.",
+      "Encourage your child to fill the wall.",
+      "Peel items off to start again."
+    ],
+    "benefits": [
+      "Pincer grasp",
+      "Sensory feedback",
+      "Creativity"
+    ],
+    "cleanup": "Roll the paper up sticky-side in for next session.",
+    "isFree": false
+  },
+  {
+    "slug": "ice-tray-transfer",
+    "title": "Ice Tray Transfer",
+    "category": "Fine Motor",
+    "ageMin": 24,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Place one small object (bead, pom pom) into each well of an ice cube tray.",
+    "materials": [
+      "Ice cube tray",
+      "Bowl of small objects",
+      "Small spoon (optional)"
+    ],
+    "steps": [
+      "Set the tray and bowl side by side.",
+      "Demonstrate placing one object per well.",
+      "Talk about 'one in each'.",
+      "Empty and start again."
+    ],
+    "benefits": [
+      "Pincer grasp",
+      "One-to-one correspondence",
+      "Concentration"
+    ],
+    "cleanup": "Tip objects back into the bowl and rinse the tray.",
+    "isFree": false
+  },
+  {
+    "slug": "rainbow-rice-bin",
+    "title": "Rainbow Rice Sensory Bin",
+    "category": "Sensory",
+    "ageMin": 18,
+    "duration": 20,
+    "mess": "High",
+    "summary": "Scoop, pour and dig through a bin of dyed rice and hidden treasures.",
+    "materials": [
+      "Dyed rice",
+      "Scoops & cups",
+      "Small toy animals",
+      "Large shallow bin"
+    ],
+    "steps": [
+      "Pour rice into the bin.",
+      "Hide a few toys.",
+      "Offer scoops and let your child explore."
+    ],
+    "benefits": [
+      "Sensory regulation",
+      "Imaginative play",
+      "Hand control"
+    ],
+    "cleanup": "Sweep stray rice into the bin and seal in a container.",
+    "isFree": false
+  },
+  {
+    "slug": "finger-painting",
+    "title": "Finger Painting",
+    "category": "Creativity",
+    "ageMin": 18,
+    "duration": 15,
+    "mess": "High",
+    "summary": "Mix and smear washable paint directly with fingers on big paper.",
+    "materials": [
+      "Washable finger paint",
+      "Large paper",
+      "Smock",
+      "Wipes"
+    ],
+    "steps": [
+      "Tape paper down.",
+      "Put dollops of paint on the page.",
+      "Invite your child to spread and mix."
+    ],
+    "benefits": [
+      "Creative expression",
+      "Sensory play",
+      "Color mixing"
+    ],
+    "cleanup": "Roll paper to dry and wipe hands with a warm cloth.",
+    "isFree": false
+  },
+  {
+    "slug": "pour-your-own-water",
+    "title": "Pour Your Own Water",
+    "category": "Practical Life",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Medium",
+    "summary": "Pour from a small pitcher into a cup at snack time.",
+    "materials": [
+      "Small child pitcher",
+      "Cup",
+      "Sponge"
+    ],
+    "steps": [
+      "Fill the pitcher halfway.",
+      "Demonstrate a slow pour.",
+      "Let your child try at snack time."
+    ],
+    "benefits": [
+      "Independence",
+      "Hand control",
+      "Self-care"
+    ],
+    "cleanup": "Wipe spills with the sponge and refill for next meal.",
+    "isFree": false
+  },
+  {
+    "slug": "picture-book-naming",
+    "title": "Picture Book Naming",
+    "category": "Language",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Point to and name objects on the page of a favorite picture book.",
+    "materials": [
+      "A picture book with clear illustrations"
+    ],
+    "steps": [
+      "Sit together with the book.",
+      "Point and clearly name one object.",
+      "Pause for your child to repeat or point.",
+      "Turn the page together."
+    ],
+    "benefits": [
+      "Vocabulary",
+      "Joint attention",
+      "Pointing & gesture"
+    ],
+    "cleanup": "Return the book to the shelf.",
+    "isFree": false
+  },
+  {
+    "slug": "cloud-dough",
+    "title": "Cloud Dough",
+    "category": "Sensory",
+    "ageMin": 18,
+    "duration": 20,
+    "mess": "Medium",
+    "summary": "Squeeze and mold a silky flour-and-oil dough that holds shapes.",
+    "materials": [
+      "8 cups flour",
+      "1 cup baby oil or vegetable oil",
+      "Shallow bin",
+      "Cups & small molds"
+    ],
+    "steps": [
+      "Mix flour and oil in the bin until it feels like damp sand.",
+      "Show your child how to pack it into a cup.",
+      "Tip it out to make a mound.",
+      "Encourage squishing and squeezing."
+    ],
+    "benefits": [
+      "Tactile exploration",
+      "Hand strength",
+      "Imaginative play"
+    ],
+    "cleanup": "Scoop dough into an airtight container — it keeps for weeks.",
+    "isFree": false
+  },
+  {
+    "slug": "taste-safe-jelly",
+    "title": "Taste-Safe Jelly Bowl",
+    "category": "Sensory",
+    "ageMin": 12,
+    "duration": 15,
+    "mess": "High",
+    "summary": "Squish a bowl of plain gelatin with hidden fruit pieces inside.",
+    "materials": [
+      "1 packet unflavored gelatin (prepared)",
+      "Soft fruit pieces",
+      "Shallow bowl"
+    ],
+    "steps": [
+      "Set fruit in the bowl, pour gelatin over and chill until firm.",
+      "Set on a tray with a bib on.",
+      "Invite your child to poke, squish and dig out the fruit."
+    ],
+    "benefits": [
+      "Tactile feedback",
+      "Cause and effect",
+      "Hand strength"
+    ],
+    "cleanup": "Compost leftovers and wipe the tray with warm water.",
+    "isFree": false
+  },
+  {
+    "slug": "frozen-fruit-bowl",
+    "title": "Frozen Fruit Discovery",
+    "category": "Sensory",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Medium",
+    "summary": "Explore the cold, hard, then soft textures of frozen berries.",
+    "materials": [
+      "A small bowl of frozen berries",
+      "A spoon",
+      "A bib & tray"
+    ],
+    "steps": [
+      "Tip the berries into the bowl.",
+      "Demonstrate touching one with a fingertip.",
+      "Talk about 'cold' and 'soft' as they thaw.",
+      "Taste together if your child is ready."
+    ],
+    "benefits": [
+      "Temperature awareness",
+      "Vocabulary",
+      "Sensory tolerance"
+    ],
+    "cleanup": "Wipe the tray and rinse the bowl.",
+    "isFree": false
+  },
+  {
+    "slug": "tapioca-pearl-bin",
+    "title": "Tapioca Pearl Bin",
+    "category": "Sensory",
+    "ageMin": 18,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Scoop and squeeze cooked tapioca pearls — a taste-safe water-bead alternative.",
+    "materials": [
+      "1 cup cooked tapioca pearls (cooled)",
+      "Small bin",
+      "Scoops & cups"
+    ],
+    "steps": [
+      "Pour pearls into the bin.",
+      "Show your child how to squish a handful.",
+      "Offer cups to scoop and pour."
+    ],
+    "benefits": [
+      "Sensory regulation",
+      "Fine motor",
+      "Vocabulary"
+    ],
+    "cleanup": "Bin pearls in the compost or trash and rinse the bin.",
+    "isFree": false
+  },
+  {
+    "slug": "cooked-spaghetti",
+    "title": "Cooked Spaghetti Worms",
+    "category": "Sensory",
+    "ageMin": 12,
+    "duration": 15,
+    "mess": "High",
+    "summary": "Run fingers through cooked, cooled spaghetti tossed with a drop of oil.",
+    "materials": [
+      "Cooked spaghetti (cooled)",
+      "A drop of oil",
+      "Shallow tray"
+    ],
+    "steps": [
+      "Toss spaghetti with oil so strands separate.",
+      "Pile it on the tray.",
+      "Invite squishing, pulling and stretching."
+    ],
+    "benefits": [
+      "Tactile exploration",
+      "Hand strength",
+      "Vocabulary"
+    ],
+    "cleanup": "Compost the spaghetti and rinse the tray.",
+    "isFree": false
+  },
+  {
+    "slug": "oat-bin",
+    "title": "Dry Oat Sensory Bin",
+    "category": "Sensory",
+    "ageMin": 12,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Scoop and pour dry rolled oats with cups and spoons.",
+    "materials": [
+      "2 cups rolled oats",
+      "Shallow bin",
+      "Small cups & spoons"
+    ],
+    "steps": [
+      "Pour oats into the bin.",
+      "Show your child how to fill and tip a cup.",
+      "Let them dig, scoop and pour freely."
+    ],
+    "benefits": [
+      "Hand control",
+      "Practical life prep",
+      "Calming sensory input"
+    ],
+    "cleanup": "Funnel oats back into a sealed jar — reuse many times.",
+    "isFree": false
+  },
+  {
+    "slug": "dry-pasta-bin",
+    "title": "Dry Pasta Bin",
+    "category": "Sensory",
+    "ageMin": 12,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Dig through different shapes of dry pasta for hidden spoons.",
+    "materials": [
+      "Mixed dry pasta shapes",
+      "Shallow bin",
+      "Spoons & small toys"
+    ],
+    "steps": [
+      "Pour pasta into the bin and bury a few items.",
+      "Invite your child to find them.",
+      "Talk about shapes and sounds as it moves."
+    ],
+    "benefits": [
+      "Auditory feedback",
+      "Vocabulary",
+      "Hand-eye coordination"
+    ],
+    "cleanup": "Store pasta in a sealed jar for reuse.",
+    "isFree": false
+  },
+  {
+    "slug": "whipped-cream-tray",
+    "title": "Whipped Cream Tray",
+    "category": "Sensory",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "High",
+    "summary": "Smear, swirl and taste a tray of plain whipped cream.",
+    "materials": [
+      "1 cup whipped cream (unsweetened)",
+      "A baking tray",
+      "A bib"
+    ],
+    "steps": [
+      "Spread whipped cream across the tray.",
+      "Show one finger drawing a line.",
+      "Let your child smear, swirl and lick."
+    ],
+    "benefits": [
+      "Tactile play",
+      "Mark-making prep",
+      "Sensory tolerance"
+    ],
+    "cleanup": "Wipe the tray with a warm cloth.",
+    "isFree": false
+  },
+  {
+    "slug": "ice-melt-tray",
+    "title": "Ice Melt Discovery",
+    "category": "Sensory",
+    "ageMin": 18,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Watch ice cubes melt with a pinch of salt and warm water drops.",
+    "materials": [
+      "A few ice cubes",
+      "Pinch of salt",
+      "Warm water in a cup",
+      "Tray"
+    ],
+    "steps": [
+      "Place ice on the tray.",
+      "Sprinkle a little salt.",
+      "Drip warm water on with a spoon and watch the changes."
+    ],
+    "benefits": [
+      "Observation",
+      "Cause and effect",
+      "Science exposure"
+    ],
+    "cleanup": "Pour melted water into the sink and dry the tray.",
+    "isFree": false
+  },
+  {
+    "slug": "warm-cold-bowls",
+    "title": "Warm & Cold Bowls",
+    "category": "Sensory",
+    "ageMin": 18,
+    "duration": 8,
+    "mess": "Low",
+    "summary": "Dip hands into bowls of warm and cool water and compare.",
+    "materials": [
+      "Two bowls",
+      "Warm (not hot) water",
+      "Cool water",
+      "A towel"
+    ],
+    "steps": [
+      "Set bowls side by side on a towel.",
+      "Demonstrate dipping one hand in each.",
+      "Talk about 'warm' and 'cool'."
+    ],
+    "benefits": [
+      "Temperature words",
+      "Body awareness",
+      "Calm sensory input"
+    ],
+    "cleanup": "Pour water out and dry hands and bowls.",
+    "isFree": false
+  },
+  {
+    "slug": "texture-board",
+    "title": "Texture Touch Board",
+    "category": "Sensory",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Run fingers across scraps of fabric glued to a card: silk, felt, corduroy, fleece.",
+    "materials": [
+      "Cardboard square",
+      "Fabric scraps",
+      "Glue"
+    ],
+    "steps": [
+      "Glue 4–6 fabric squares onto the board.",
+      "Sit together and run a finger across each.",
+      "Name each texture: soft, bumpy, smooth."
+    ],
+    "benefits": [
+      "Tactile discrimination",
+      "Vocabulary",
+      "Focus"
+    ],
+    "cleanup": "Store the board flat on a shelf.",
+    "isFree": false
+  },
+  {
+    "slug": "nature-basket",
+    "title": "Nature Treasure Basket",
+    "category": "Sensory",
+    "ageMin": 12,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Explore a basket of safe natural objects: pinecones, smooth stones, shells.",
+    "materials": [
+      "A shallow basket",
+      "Pinecones, large smooth stones, large shells, leaves"
+    ],
+    "steps": [
+      "Set the basket on the floor.",
+      "Sit close and pick up one item at a time.",
+      "Name it and let your child explore it."
+    ],
+    "benefits": [
+      "Vocabulary",
+      "Tactile exploration",
+      "Curiosity"
+    ],
+    "cleanup": "Return treasures to the basket on a shelf.",
+    "isFree": false
+  },
+  {
+    "slug": "spice-smell-jars",
+    "title": "Spice Smell Jars",
+    "category": "Sensory",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Sniff small jars of mild kitchen spices and herbs.",
+    "materials": [
+      "3–4 small jars",
+      "Cinnamon, mint, basil, vanilla"
+    ],
+    "steps": [
+      "Place a pinch of each spice in a jar.",
+      "Cover with a paper lid with holes.",
+      "Invite your child to sniff and name."
+    ],
+    "benefits": [
+      "Smell discrimination",
+      "Vocabulary",
+      "Curiosity"
+    ],
+    "cleanup": "Empty jars into a sealed container — reuse for weeks.",
+    "isFree": false
+  },
+  {
+    "slug": "sound-shakers",
+    "title": "Sound Shakers",
+    "category": "Sensory",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Shake bottles filled with rice, beans, or bells and match the sounds.",
+    "materials": [
+      "3–4 empty bottles with tight lids",
+      "Rice, beans, bells"
+    ],
+    "steps": [
+      "Fill each bottle a third of the way.",
+      "Glue the lids on tight.",
+      "Shake one at a time and listen together."
+    ],
+    "benefits": [
+      "Auditory discrimination",
+      "Rhythm",
+      "Cause and effect"
+    ],
+    "cleanup": "Store bottles in a basket on the shelf.",
+    "isFree": false
+  },
+  {
+    "slug": "crinkle-basket",
+    "title": "Crinkle Fabric Basket",
+    "category": "Sensory",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Squish and pull a basket of crinkly fabrics, ribbons and scarves.",
+    "materials": [
+      "Basket",
+      "Silk scarves, tissue paper, ribbons"
+    ],
+    "steps": [
+      "Fill the basket with mixed crinkly items.",
+      "Sit on the floor together.",
+      "Pull each out and listen to the sounds."
+    ],
+    "benefits": [
+      "Auditory & tactile play",
+      "Grasp release",
+      "Discovery"
+    ],
+    "cleanup": "Refold items and tuck back into the basket.",
+    "isFree": false
+  },
+  {
+    "slug": "mirror-play",
+    "title": "Baby-Safe Mirror Play",
+    "category": "Sensory",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Make faces, point and name body parts in a sturdy mirror.",
+    "materials": [
+      "A baby-safe mirror"
+    ],
+    "steps": [
+      "Sit your child in front of the mirror.",
+      "Point to your nose, then theirs.",
+      "Make happy and surprised faces."
+    ],
+    "benefits": [
+      "Self-recognition",
+      "Vocabulary",
+      "Emotional awareness"
+    ],
+    "cleanup": "Wipe the mirror and store flat.",
+    "isFree": false
+  },
+  {
+    "slug": "flashlight-shadows",
+    "title": "Flashlight Shadow Play",
+    "category": "Sensory",
+    "ageMin": 24,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Make hand shadows on the wall with a small flashlight in a dim room.",
+    "materials": [
+      "Small flashlight",
+      "A dim room"
+    ],
+    "steps": [
+      "Dim the lights.",
+      "Shine the flashlight at the wall.",
+      "Show how to make a hand shadow.",
+      "Take turns guessing shapes."
+    ],
+    "benefits": [
+      "Cause and effect",
+      "Imagination",
+      "Light & shadow concept"
+    ],
+    "cleanup": "Turn the flashlight off and open the curtains.",
+    "isFree": false
+  },
+  {
+    "slug": "bubble-wrap-stomp",
+    "title": "Bubble Wrap Stomp",
+    "category": "Sensory",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Stomp, pat and pop a taped-down sheet of bubble wrap.",
+    "materials": [
+      "A sheet of bubble wrap",
+      "Painter's tape"
+    ],
+    "steps": [
+      "Tape the wrap flat on the floor.",
+      "Demonstrate stepping and patting.",
+      "Encourage stomps, hand pats and crawling."
+    ],
+    "benefits": [
+      "Auditory feedback",
+      "Gross motor",
+      "Sensory regulation"
+    ],
+    "cleanup": "Recycle the popped sheet.",
+    "isFree": false
+  },
+  {
+    "slug": "sponge-textures",
+    "title": "Sponge Texture Exploration",
+    "category": "Sensory",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Compare dry, damp and wet sponges of different sizes.",
+    "materials": [
+      "3 sponges",
+      "Bowl of water",
+      "Tray"
+    ],
+    "steps": [
+      "Set one dry, one damp, one wet sponge on the tray.",
+      "Squeeze each one in turn.",
+      "Talk about how they feel."
+    ],
+    "benefits": [
+      "Texture vocabulary",
+      "Hand strength",
+      "Cause and effect"
+    ],
+    "cleanup": "Wring sponges out and lay flat to dry.",
+    "isFree": false
+  },
+  {
+    "slug": "herb-garden-touch",
+    "title": "Herb Garden Touch & Smell",
+    "category": "Sensory",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Touch and smell fresh kitchen herbs from a pot or bouquet.",
+    "materials": [
+      "Small pot of mint, basil or rosemary"
+    ],
+    "steps": [
+      "Sit with the herbs at a low table.",
+      "Show how to rub a leaf gently between fingers.",
+      "Smell your fingers together and name the herb."
+    ],
+    "benefits": [
+      "Smell awareness",
+      "Vocabulary",
+      "Gentle touch"
+    ],
+    "cleanup": "Return the herbs to the windowsill.",
+    "isFree": false
+  },
+  {
+    "slug": "wet-dry-rice",
+    "title": "Wet & Dry Rice",
+    "category": "Sensory",
+    "ageMin": 24,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Compare scooping dry rice with wet (slightly damp) rice in two bins.",
+    "materials": [
+      "1 cup dry rice",
+      "1 cup damp rice",
+      "Two bins",
+      "Scoops"
+    ],
+    "steps": [
+      "Set one bin of each rice on a tray.",
+      "Scoop, pour and pack each one.",
+      "Compare how they move and feel."
+    ],
+    "benefits": [
+      "Comparison thinking",
+      "Hand control",
+      "Vocabulary"
+    ],
+    "cleanup": "Compost damp rice and save dry rice in a jar.",
+    "isFree": false
+  },
+  {
+    "slug": "oobleck",
+    "title": "Oobleck Play",
+    "category": "Sensory",
+    "ageMin": 24,
+    "duration": 15,
+    "mess": "High",
+    "summary": "Mix cornflour and water to make a goo that's solid when squeezed, liquid when relaxed.",
+    "materials": [
+      "1 cup cornflour (cornstarch)",
+      "½ cup water",
+      "Tray",
+      "Bib"
+    ],
+    "steps": [
+      "Mix cornflour and water in the tray slowly.",
+      "Show how to scoop and let it drip.",
+      "Let your child squeeze and release."
+    ],
+    "benefits": [
+      "Sensory discovery",
+      "Cause and effect",
+      "Science exposure"
+    ],
+    "cleanup": "Scoop into the trash (not the sink) and wipe with warm water.",
+    "isFree": false
+  },
+  {
+    "slug": "paper-rip-bin",
+    "title": "Paper Rip & Toss Bin",
+    "category": "Sensory",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Rip pages from junk mail into a big bin and toss them in the air.",
+    "materials": [
+      "Junk mail or newspaper",
+      "A large bin"
+    ],
+    "steps": [
+      "Sit with the bin between you.",
+      "Demonstrate ripping one page.",
+      "Toss scraps in the bin and shower them down."
+    ],
+    "benefits": [
+      "Bilateral hand strength",
+      "Auditory feedback",
+      "Joy & laughter"
+    ],
+    "cleanup": "Tip scraps into the recycling bin.",
+    "isFree": false
+  },
+  {
+    "slug": "veggie-stamping",
+    "title": "Veggie Stamping",
+    "category": "Creativity",
+    "ageMin": 18,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Stamp paint shapes onto paper using cut celery, okra and apple halves.",
+    "materials": [
+      "Cut veggies (celery base, halved apple, okra)",
+      "Washable paint in a shallow dish",
+      "Paper"
+    ],
+    "steps": [
+      "Pour paint into a flat dish.",
+      "Show dipping a veggie in and pressing onto paper.",
+      "Talk about the patterns each one makes."
+    ],
+    "benefits": [
+      "Creative expression",
+      "Pattern recognition",
+      "Hand control"
+    ],
+    "cleanup": "Compost the veggies and rinse the dish.",
+    "isFree": false
+  },
+  {
+    "slug": "potato-prints",
+    "title": "Potato Stamp Prints",
+    "category": "Creativity",
+    "ageMin": 24,
+    "duration": 20,
+    "mess": "Medium",
+    "summary": "Press carved potato halves into paint to make repeating prints.",
+    "materials": [
+      "Halved potatoes (adult carves a shape)",
+      "Washable paint",
+      "Paper"
+    ],
+    "steps": [
+      "Adult carves a simple shape into each potato half.",
+      "Dip into paint.",
+      "Press firmly onto the paper.",
+      "Repeat in rows."
+    ],
+    "benefits": [
+      "Pattern making",
+      "Hand control",
+      "Creativity"
+    ],
+    "cleanup": "Compost potatoes and rinse the dish.",
+    "isFree": false
+  },
+  {
+    "slug": "cotton-cloud-art",
+    "title": "Cotton Ball Clouds",
+    "category": "Creativity",
+    "ageMin": 18,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Glue cotton balls onto blue paper to make a sky full of clouds.",
+    "materials": [
+      "Cotton balls",
+      "Blue construction paper",
+      "Glue stick"
+    ],
+    "steps": [
+      "Hand your child the paper.",
+      "Rub glue in a cloud shape.",
+      "Press cotton balls into the glue.",
+      "Add a sun if you like."
+    ],
+    "benefits": [
+      "Fine motor",
+      "Imagination",
+      "Vocabulary"
+    ],
+    "cleanup": "Hang to dry and tidy leftover cotton.",
+    "isFree": false
+  },
+  {
+    "slug": "tissue-collage",
+    "title": "Tissue Paper Collage",
+    "category": "Creativity",
+    "ageMin": 18,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Tear and stick squares of tissue paper onto contact paper.",
+    "materials": [
+      "Tissue paper squares",
+      "A sheet of contact paper",
+      "Painter's tape"
+    ],
+    "steps": [
+      "Tape contact paper sticky-side up to the table.",
+      "Show pressing a tissue square on.",
+      "Fill the sheet with colors."
+    ],
+    "benefits": [
+      "Pincer grasp",
+      "Color awareness",
+      "Creativity"
+    ],
+    "cleanup": "Peel and hang as window art.",
+    "isFree": false
+  },
+  {
+    "slug": "nature-brushes",
+    "title": "Leaf & Twig Painting",
+    "category": "Creativity",
+    "ageMin": 24,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Use leaves, twigs and pine needles as paintbrushes.",
+    "materials": [
+      "Found leaves and twigs",
+      "Washable paint",
+      "Paper"
+    ],
+    "steps": [
+      "Set out the natural 'brushes'.",
+      "Dip one into paint.",
+      "Drag and dab across the paper.",
+      "Try each tool."
+    ],
+    "benefits": [
+      "Creativity",
+      "Nature connection",
+      "Tool exploration"
+    ],
+    "cleanup": "Compost the brushes and rinse the dish.",
+    "isFree": false
+  },
+  {
+    "slug": "ice-cube-painting",
+    "title": "Ice Cube Painting",
+    "category": "Creativity",
+    "ageMin": 24,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Slide melting ice cubes of colored water across paper.",
+    "materials": [
+      "Ice cubes frozen with food coloring",
+      "Watercolor paper",
+      "Tray"
+    ],
+    "steps": [
+      "Freeze water with a drop of color in each ice well.",
+      "Set paper on the tray.",
+      "Show sliding a cube across the page."
+    ],
+    "benefits": [
+      "Sensory + art",
+      "Color mixing",
+      "Hand control"
+    ],
+    "cleanup": "Pour leftover water down the sink and dry the tray.",
+    "isFree": false
+  },
+  {
+    "slug": "straw-blow-art",
+    "title": "Straw Blow Painting",
+    "category": "Creativity",
+    "ageMin": 30,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Blow drops of watery paint across paper with a straw.",
+    "materials": [
+      "Watered-down washable paint",
+      "Straws",
+      "Paper",
+      "Pipette"
+    ],
+    "steps": [
+      "Drop blobs of paint on the paper.",
+      "Show your child how to blow gently through the straw.",
+      "Watch the blobs spread."
+    ],
+    "benefits": [
+      "Oral motor",
+      "Cause and effect",
+      "Creativity"
+    ],
+    "cleanup": "Toss straws and lay paper flat to dry.",
+    "isFree": false
+  },
+  {
+    "slug": "yarn-painting",
+    "title": "Yarn Painting",
+    "category": "Creativity",
+    "ageMin": 24,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Drag paint-dipped yarn across paper to make swirly lines.",
+    "materials": [
+      "Lengths of yarn",
+      "Washable paint",
+      "Paper",
+      "Plate"
+    ],
+    "steps": [
+      "Pour paint into a plate.",
+      "Lay a yarn piece in the paint.",
+      "Lift and drag across the paper."
+    ],
+    "benefits": [
+      "Creativity",
+      "Hand control",
+      "Pattern play"
+    ],
+    "cleanup": "Toss yarn and let paper dry flat.",
+    "isFree": false
+  },
+  {
+    "slug": "box-house",
+    "title": "Cardboard Box House",
+    "category": "Creativity",
+    "ageMin": 18,
+    "duration": 30,
+    "mess": "Low",
+    "summary": "Decorate a small cardboard box with crayons and stickers to make a tiny house.",
+    "materials": [
+      "A clean small box",
+      "Crayons",
+      "Stickers"
+    ],
+    "steps": [
+      "Cut a door and window (adult).",
+      "Hand the box to your child.",
+      "Color the walls and decorate with stickers."
+    ],
+    "benefits": [
+      "Imaginative play",
+      "Hand control",
+      "Creativity"
+    ],
+    "cleanup": "Use the house as a toy or recycle it.",
+    "isFree": false
+  },
+  {
+    "slug": "plate-faces",
+    "title": "Paper Plate Faces",
+    "category": "Creativity",
+    "ageMin": 24,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Glue scraps onto a paper plate to make a funny face.",
+    "materials": [
+      "Paper plate",
+      "Paper scraps, yarn",
+      "Glue stick",
+      "Crayons"
+    ],
+    "steps": [
+      "Lay the plate flat.",
+      "Glue on yarn hair, paper eyes and mouth.",
+      "Add crayon details."
+    ],
+    "benefits": [
+      "Body part awareness",
+      "Creativity",
+      "Fine motor"
+    ],
+    "cleanup": "Hang to dry and tidy the scraps.",
+    "isFree": false
+  },
+  {
+    "slug": "crayon-rubbing",
+    "title": "Crayon Rubbings",
+    "category": "Creativity",
+    "ageMin": 24,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Lay paper over leaves and coins, then rub a crayon flat to reveal them.",
+    "materials": [
+      "Thin paper",
+      "Peeled crayons",
+      "Flat textured items (leaves, coins)"
+    ],
+    "steps": [
+      "Set a leaf under the paper.",
+      "Show rubbing the side of a crayon over it.",
+      "Watch the texture appear."
+    ],
+    "benefits": [
+      "Observation",
+      "Hand control",
+      "Texture awareness"
+    ],
+    "cleanup": "Return items and store paper flat.",
+    "isFree": false
+  },
+  {
+    "slug": "salt-painting",
+    "title": "Salt & Watercolor",
+    "category": "Creativity",
+    "ageMin": 30,
+    "duration": 20,
+    "mess": "Medium",
+    "summary": "Trace glue lines, sprinkle with salt, then dab watercolor for magical patterns.",
+    "materials": [
+      "Glue",
+      "Salt",
+      "Watercolors with pipette or brush",
+      "Cardstock"
+    ],
+    "steps": [
+      "Draw lines and shapes with glue.",
+      "Sprinkle salt over and tip off excess.",
+      "Touch watercolor onto the salt and watch it travel."
+    ],
+    "benefits": [
+      "Cause and effect",
+      "Creativity",
+      "Hand control"
+    ],
+    "cleanup": "Shake salt into the trash and dry artwork flat.",
+    "isFree": false
+  },
+  {
+    "slug": "bubble-print",
+    "title": "Bubble Print Art",
+    "category": "Creativity",
+    "ageMin": 30,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Blow bubbles in colored soapy water with a straw and press paper on top.",
+    "materials": [
+      "Cup of water + soap + food coloring",
+      "Straw",
+      "Paper"
+    ],
+    "steps": [
+      "Adult supervises straw-in not suck-up.",
+      "Blow until bubbles dome over the cup.",
+      "Press paper gently on top."
+    ],
+    "benefits": [
+      "Oral motor",
+      "Cause and effect",
+      "Creativity"
+    ],
+    "cleanup": "Pour soapy water down the drain and rinse the cup.",
+    "isFree": false
+  },
+  {
+    "slug": "rolling-pin-paint",
+    "title": "Rolling Pin Painting",
+    "category": "Creativity",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "High",
+    "summary": "Roll a paint-dipped rolling pin across paper for instant murals.",
+    "materials": [
+      "Small rolling pin",
+      "Washable paint",
+      "Large paper"
+    ],
+    "steps": [
+      "Pour paint in a long shallow tray.",
+      "Roll the pin through it.",
+      "Roll back and forth on the paper."
+    ],
+    "benefits": [
+      "Gross & fine motor",
+      "Cause and effect",
+      "Creativity"
+    ],
+    "cleanup": "Rinse the pin and roll up the paper to dry.",
+    "isFree": false
+  },
+  {
+    "slug": "fork-painting",
+    "title": "Fork Painting",
+    "category": "Creativity",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Medium",
+    "summary": "Drag a fork through paint to make grass, fur and hair textures.",
+    "materials": [
+      "Plastic fork",
+      "Washable paint",
+      "Paper"
+    ],
+    "steps": [
+      "Pour paint on a plate.",
+      "Dip the fork tines in.",
+      "Drag across the paper to make lines."
+    ],
+    "benefits": [
+      "Texture play",
+      "Hand control",
+      "Creativity"
+    ],
+    "cleanup": "Toss the fork and rinse the plate.",
+    "isFree": false
+  },
+  {
+    "slug": "handprint-animals",
+    "title": "Handprint Animals",
+    "category": "Creativity",
+    "ageMin": 18,
+    "duration": 15,
+    "mess": "High",
+    "summary": "Press a painted hand onto paper and turn the print into an animal.",
+    "materials": [
+      "Washable paint",
+      "Paper",
+      "Marker"
+    ],
+    "steps": [
+      "Paint your child's palm.",
+      "Press firmly onto paper.",
+      "Once dry, draw eyes and legs to make an animal."
+    ],
+    "benefits": [
+      "Body awareness",
+      "Creativity",
+      "Keepsake"
+    ],
+    "cleanup": "Wash hands well and lay artwork flat to dry.",
+    "isFree": false
+  },
+  {
+    "slug": "footprint-art",
+    "title": "Footprint Art",
+    "category": "Creativity",
+    "ageMin": 18,
+    "duration": 15,
+    "mess": "High",
+    "summary": "Stamp painted little feet onto paper for a butterfly or a heart.",
+    "materials": [
+      "Washable paint",
+      "Long paper",
+      "Towel & wash bowl ready"
+    ],
+    "steps": [
+      "Sit your child on a towel.",
+      "Paint one foot at a time.",
+      "Press onto the paper and lift straight up."
+    ],
+    "benefits": [
+      "Body awareness",
+      "Sensory play",
+      "Keepsake"
+    ],
+    "cleanup": "Wash feet in the bowl and dry artwork flat.",
+    "isFree": false
+  },
+  {
+    "slug": "egg-carton-bugs",
+    "title": "Egg Carton Creatures",
+    "category": "Creativity",
+    "ageMin": 24,
+    "duration": 20,
+    "mess": "Low",
+    "summary": "Paint sections of an egg carton and add pipe cleaner legs to make bugs.",
+    "materials": [
+      "Cardboard egg carton (cut into rows)",
+      "Washable paint",
+      "Pipe cleaners"
+    ],
+    "steps": [
+      "Cut the carton into 2-cup rows (adult).",
+      "Paint each cup.",
+      "Once dry, poke pipe cleaner legs in."
+    ],
+    "benefits": [
+      "Creativity",
+      "Hand control",
+      "Imagination"
+    ],
+    "cleanup": "Display the creatures or recycle them later.",
+    "isFree": false
+  },
+  {
+    "slug": "tube-stamps",
+    "title": "Cardboard Tube Stamps",
+    "category": "Creativity",
+    "ageMin": 18,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Dip the rim of toilet paper rolls in paint to stamp circles, hearts and flowers.",
+    "materials": [
+      "Empty cardboard tubes",
+      "Washable paint",
+      "Paper"
+    ],
+    "steps": [
+      "Pinch tubes into different shapes (heart, oval).",
+      "Dip the rim in paint.",
+      "Press onto the paper."
+    ],
+    "benefits": [
+      "Hand control",
+      "Shape recognition",
+      "Creativity"
+    ],
+    "cleanup": "Recycle the tubes and rinse the dish.",
+    "isFree": false
+  },
+  {
+    "slug": "yogurt-paint",
+    "title": "Edible Yogurt Paint",
+    "category": "Creativity",
+    "ageMin": 12,
+    "duration": 15,
+    "mess": "High",
+    "summary": "Mix plain yogurt with food coloring for an edible 'paint' on paper or a high chair tray.",
+    "materials": [
+      "Plain yogurt",
+      "Food coloring",
+      "High chair tray or paper",
+      "Bib"
+    ],
+    "steps": [
+      "Mix small amounts of yogurt with a drop of color each.",
+      "Dollop onto the tray.",
+      "Let your child paint and lick."
+    ],
+    "benefits": [
+      "Sensory creativity",
+      "Color mixing",
+      "Self-feeding"
+    ],
+    "cleanup": "Wipe the tray with a warm cloth.",
+    "isFree": false
+  },
+  {
+    "slug": "chalk-on-paper",
+    "title": "Chalk on Black Paper",
+    "category": "Creativity",
+    "ageMin": 18,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Draw with chalk pastels or sidewalk chalk on black construction paper.",
+    "materials": [
+      "Chalk pastels or sidewalk chalk",
+      "Black paper"
+    ],
+    "steps": [
+      "Sit at the table with paper flat.",
+      "Show drawing big strokes.",
+      "Smudge with a fingertip."
+    ],
+    "benefits": [
+      "Mark-making",
+      "Hand control",
+      "Creativity"
+    ],
+    "cleanup": "Shake paper outside and wash hands.",
+    "isFree": false
+  },
+  {
+    "slug": "wet-chalk",
+    "title": "Wet Chalk Drawing",
+    "category": "Creativity",
+    "ageMin": 18,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Dip chalk in water and draw bold, bright lines on dark paper.",
+    "materials": [
+      "Sidewalk chalk",
+      "Cup of water",
+      "Dark paper"
+    ],
+    "steps": [
+      "Dip the chalk tip in water.",
+      "Press onto the paper and drag.",
+      "Compare to dry chalk."
+    ],
+    "benefits": [
+      "Cause and effect",
+      "Color awareness",
+      "Hand control"
+    ],
+    "cleanup": "Lay chalk flat to dry.",
+    "isFree": false
+  },
+  {
+    "slug": "sponge-painting",
+    "title": "Sponge Painting",
+    "category": "Creativity",
+    "ageMin": 18,
+    "duration": 15,
+    "mess": "High",
+    "summary": "Dab clean cut sponges into paint and press onto paper.",
+    "materials": [
+      "Sponges cut into shapes",
+      "Washable paint",
+      "Paper"
+    ],
+    "steps": [
+      "Pour paint in a flat dish.",
+      "Press a sponge in, then onto paper.",
+      "Repeat with each color."
+    ],
+    "benefits": [
+      "Hand control",
+      "Color mixing",
+      "Creativity"
+    ],
+    "cleanup": "Rinse the sponges and hang artwork to dry.",
+    "isFree": false
+  },
+  {
+    "slug": "tape-resist",
+    "title": "Tape Resist Art",
+    "category": "Creativity",
+    "ageMin": 24,
+    "duration": 20,
+    "mess": "Medium",
+    "summary": "Stick painter's tape to paper, paint all over, peel to reveal clean lines.",
+    "materials": [
+      "Painter's tape",
+      "Paper",
+      "Washable paint"
+    ],
+    "steps": [
+      "Press strips of tape on the paper.",
+      "Paint freely over everything.",
+      "Once dry, peel the tape to reveal the design."
+    ],
+    "benefits": [
+      "Creativity",
+      "Hand control",
+      "Surprise & delight"
+    ],
+    "cleanup": "Toss tape and dry artwork flat.",
+    "isFree": false
+  },
+  {
+    "slug": "nature-collage",
+    "title": "Nature Collage",
+    "category": "Creativity",
+    "ageMin": 18,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Glue leaves, petals and small twigs onto a card to make a nature picture.",
+    "materials": [
+      "Collected leaves and petals",
+      "Glue stick",
+      "Cardstock"
+    ],
+    "steps": [
+      "Take a walk and collect treasures.",
+      "Lay them out on the card.",
+      "Glue them down one at a time."
+    ],
+    "benefits": [
+      "Nature connection",
+      "Hand control",
+      "Creativity"
+    ],
+    "cleanup": "Hang the card and compost extras.",
+    "isFree": false
+  },
+  {
+    "slug": "silk-draping",
+    "title": "Play Silk Draping",
+    "category": "Creativity",
+    "ageMin": 12,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Drape, swirl and twirl colorful play silks for free expression.",
+    "materials": [
+      "3–5 play silks or thin scarves"
+    ],
+    "steps": [
+      "Set silks in a basket.",
+      "Demonstrate tossing one in the air.",
+      "Drape them on shoulders and over furniture."
+    ],
+    "benefits": [
+      "Gross motor",
+      "Imagination",
+      "Color play"
+    ],
+    "cleanup": "Fold silks and return to the basket.",
+    "isFree": false
+  },
+  {
+    "slug": "mud-painting",
+    "title": "Mud Painting",
+    "category": "Creativity",
+    "ageMin": 24,
+    "duration": 20,
+    "mess": "High",
+    "summary": "Paint with mud outside on cardboard or a wooden fence.",
+    "materials": [
+      "Bowl of mud",
+      "Big paintbrush",
+      "Cardboard"
+    ],
+    "steps": [
+      "Mix mud in a bowl.",
+      "Hand your child the brush.",
+      "Paint freely on the cardboard."
+    ],
+    "benefits": [
+      "Outdoor sensory play",
+      "Creativity",
+      "Hand control"
+    ],
+    "cleanup": "Hose down hands and compost the cardboard.",
+    "isFree": false
+  },
+  {
+    "slug": "table-setting",
+    "title": "Set the Table",
+    "category": "Practical Life",
+    "ageMin": 24,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Set a placemat, plate, cup and spoon for each person at mealtime.",
+    "materials": [
+      "Child-safe plates, cups, spoons",
+      "Placemats"
+    ],
+    "steps": [
+      "Lay a placemat out together.",
+      "Place a plate in the center.",
+      "Add the cup and spoon.",
+      "Repeat for each person."
+    ],
+    "benefits": [
+      "Independence",
+      "Sequencing",
+      "Belonging"
+    ],
+    "cleanup": "Clear after the meal together.",
+    "isFree": false
+  },
+  {
+    "slug": "napkin-folding",
+    "title": "Napkin Folding",
+    "category": "Practical Life",
+    "ageMin": 30,
+    "duration": 8,
+    "mess": "Low",
+    "summary": "Fold cloth napkins into halves and quarters before a meal.",
+    "materials": [
+      "3–4 cloth napkins",
+      "A small basket"
+    ],
+    "steps": [
+      "Lay one napkin flat.",
+      "Demonstrate folding edge to edge.",
+      "Fold in half again.",
+      "Stack in the basket."
+    ],
+    "benefits": [
+      "Hand control",
+      "Sequencing",
+      "Independence"
+    ],
+    "cleanup": "Store the basket near the table.",
+    "isFree": false
+  },
+  {
+    "slug": "banana-slicing",
+    "title": "Banana Slicing",
+    "category": "Practical Life",
+    "ageMin": 24,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Slice a peeled banana with a butter knife at snack time.",
+    "materials": [
+      "Ripe banana (peeled)",
+      "Butter knife",
+      "Small plate"
+    ],
+    "steps": [
+      "Lay the banana on the plate.",
+      "Show holding the knife with one hand.",
+      "Press straight down to slice."
+    ],
+    "benefits": [
+      "Self-feeding",
+      "Hand control",
+      "Independence"
+    ],
+    "cleanup": "Eat the slices and wash the plate together.",
+    "isFree": false
+  },
+  {
+    "slug": "spreading-butter",
+    "title": "Spreading on Toast",
+    "category": "Practical Life",
+    "ageMin": 30,
+    "duration": 8,
+    "mess": "Low",
+    "summary": "Spread soft butter or jam onto a slice of toast with a butter knife.",
+    "materials": [
+      "Toast",
+      "Soft butter or jam",
+      "Butter knife"
+    ],
+    "steps": [
+      "Set toast on a plate.",
+      "Scoop a little spread on the knife.",
+      "Show smoothing across the toast."
+    ],
+    "benefits": [
+      "Self-feeding",
+      "Wrist control",
+      "Independence"
+    ],
+    "cleanup": "Eat and wash the plate together.",
+    "isFree": false
+  },
+  {
+    "slug": "peeling-mandarin",
+    "title": "Peeling a Mandarin",
+    "category": "Practical Life",
+    "ageMin": 24,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Peel a small mandarin orange and place segments in a bowl.",
+    "materials": [
+      "A ripe mandarin",
+      "Small bowl"
+    ],
+    "steps": [
+      "Score the peel with a fingernail (adult).",
+      "Show pulling a piece of peel off.",
+      "Drop segments into the bowl."
+    ],
+    "benefits": [
+      "Pincer grasp",
+      "Independence",
+      "Self-feeding"
+    ],
+    "cleanup": "Compost the peel and enjoy the fruit.",
+    "isFree": false
+  },
+  {
+    "slug": "washing-veggies",
+    "title": "Washing Veggies",
+    "category": "Practical Life",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Medium",
+    "summary": "Rinse cherry tomatoes or grapes under cool water in a colander.",
+    "materials": [
+      "Cherry tomatoes or grapes",
+      "Colander",
+      "Step stool"
+    ],
+    "steps": [
+      "Place the colander in the sink.",
+      "Tip the fruit in.",
+      "Show your child how to rinse and shake."
+    ],
+    "benefits": [
+      "Practical life",
+      "Independence",
+      "Hand control"
+    ],
+    "cleanup": "Tip into a bowl and dry the colander.",
+    "isFree": false
+  },
+  {
+    "slug": "dish-washing",
+    "title": "Dish Washing Station",
+    "category": "Practical Life",
+    "ageMin": 24,
+    "duration": 15,
+    "mess": "High",
+    "summary": "Wash a few unbreakable dishes in a small basin of soapy water.",
+    "materials": [
+      "Basin of warm soapy water",
+      "Basin of rinse water",
+      "A few cups and bowls",
+      "A drying towel"
+    ],
+    "steps": [
+      "Set basins on a low table over a towel.",
+      "Show dipping a cup, scrubbing with a hand.",
+      "Rinse in the second bowl.",
+      "Set on the towel to dry."
+    ],
+    "benefits": [
+      "Independence",
+      "Hand control",
+      "Sequencing"
+    ],
+    "cleanup": "Pour basins out and hang the towel.",
+    "isFree": false
+  },
+  {
+    "slug": "dusting-shelves",
+    "title": "Dusting Shelves",
+    "category": "Practical Life",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Use a small cloth to dust a low shelf or windowsill.",
+    "materials": [
+      "Small soft cloth"
+    ],
+    "steps": [
+      "Hand your child the cloth.",
+      "Show wiping in a long, slow motion.",
+      "Move along the shelf."
+    ],
+    "benefits": [
+      "Practical life",
+      "Hand control",
+      "Contribution"
+    ],
+    "cleanup": "Shake the cloth outside and put it away.",
+    "isFree": false
+  },
+  {
+    "slug": "plant-watering",
+    "title": "Plant Watering",
+    "category": "Practical Life",
+    "ageMin": 18,
+    "duration": 8,
+    "mess": "Medium",
+    "summary": "Water houseplants with a small watering can or jug.",
+    "materials": [
+      "Small watering can",
+      "Houseplants"
+    ],
+    "steps": [
+      "Fill the can halfway.",
+      "Show pouring slowly at the base of the plant.",
+      "Move to the next plant."
+    ],
+    "benefits": [
+      "Care for living things",
+      "Wrist control",
+      "Responsibility"
+    ],
+    "cleanup": "Empty extra water and store the can.",
+    "isFree": false
+  },
+  {
+    "slug": "flower-arranging",
+    "title": "Flower Arranging",
+    "category": "Practical Life",
+    "ageMin": 30,
+    "duration": 15,
+    "mess": "Medium",
+    "summary": "Trim and arrange fresh flowers in small vases for the table.",
+    "materials": [
+      "A few fresh flowers",
+      "Small vases",
+      "Safety scissors",
+      "Pitcher of water"
+    ],
+    "steps": [
+      "Pour water into each vase.",
+      "Show trimming a stem.",
+      "Place one flower per vase."
+    ],
+    "benefits": [
+      "Care of environment",
+      "Hand control",
+      "Beauty"
+    ],
+    "cleanup": "Compost trimmings and place vases around the home.",
+    "isFree": false
+  },
+  {
+    "slug": "laundry-sorting",
+    "title": "Laundry Sorting",
+    "category": "Practical Life",
+    "ageMin": 24,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Sort clean laundry into piles: socks, shirts, towels.",
+    "materials": [
+      "A basket of clean laundry"
+    ],
+    "steps": [
+      "Sit by the basket together.",
+      "Pull out one item at a time.",
+      "Sort into piles on the floor."
+    ],
+    "benefits": [
+      "Categorizing",
+      "Vocabulary",
+      "Contribution"
+    ],
+    "cleanup": "Carry piles to their drawers together.",
+    "isFree": false
+  },
+  {
+    "slug": "matching-socks",
+    "title": "Matching Socks",
+    "category": "Practical Life",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Find matching pairs of socks and roll them together.",
+    "materials": [
+      "A basket of mixed clean socks"
+    ],
+    "steps": [
+      "Tip socks onto the floor.",
+      "Pick one sock.",
+      "Hunt for its pair.",
+      "Roll them together."
+    ],
+    "benefits": [
+      "Matching",
+      "Visual discrimination",
+      "Contribution"
+    ],
+    "cleanup": "Put pairs in the sock drawer.",
+    "isFree": false
+  },
+  {
+    "slug": "sweeping-rice",
+    "title": "Sweeping Practice",
+    "category": "Practical Life",
+    "ageMin": 24,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Sweep a circle of dry rice into a dustpan with a child-size brush.",
+    "materials": [
+      "Child-size broom & dustpan",
+      "A small pile of dry rice"
+    ],
+    "steps": [
+      "Pour rice in a small circle on the floor.",
+      "Show short brush strokes toward the dustpan.",
+      "Tip into a bowl when done."
+    ],
+    "benefits": [
+      "Tool use",
+      "Hand-eye coordination",
+      "Contribution"
+    ],
+    "cleanup": "Pour rice back into a jar for reuse.",
+    "isFree": false
+  },
+  {
+    "slug": "wiping-table",
+    "title": "Wiping the Table",
+    "category": "Practical Life",
+    "ageMin": 18,
+    "duration": 5,
+    "mess": "Low",
+    "summary": "Wipe crumbs off the table with a damp cloth after a meal.",
+    "materials": [
+      "Small damp cloth",
+      "Empty bowl for crumbs"
+    ],
+    "steps": [
+      "Hand your child the cloth.",
+      "Show sweeping crumbs into the bowl.",
+      "Wipe the whole table."
+    ],
+    "benefits": [
+      "Practical life",
+      "Hand control",
+      "Independence"
+    ],
+    "cleanup": "Rinse the cloth and hang it to dry.",
+    "isFree": false
+  },
+  {
+    "slug": "polishing-pebbles",
+    "title": "Polishing Pebbles",
+    "category": "Practical Life",
+    "ageMin": 30,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Buff smooth stones with a soft cloth and a tiny dab of olive oil.",
+    "materials": [
+      "Smooth stones",
+      "Soft cloth",
+      "Tiny dish with a drop of olive oil"
+    ],
+    "steps": [
+      "Pick up one stone at a time.",
+      "Touch the cloth to the oil.",
+      "Rub in small circles to make it shine."
+    ],
+    "benefits": [
+      "Concentration",
+      "Hand control",
+      "Wrist movement"
+    ],
+    "cleanup": "Wipe stones with a dry cloth and store.",
+    "isFree": false
+  },
+  {
+    "slug": "carrying-tray",
+    "title": "Carrying a Tray",
+    "category": "Practical Life",
+    "ageMin": 18,
+    "duration": 5,
+    "mess": "Low",
+    "summary": "Carry a tray with a cup of water across the room without spilling.",
+    "materials": [
+      "Small tray",
+      "Cup of water (start half full)"
+    ],
+    "steps": [
+      "Place the cup in the middle of the tray.",
+      "Show holding with two hands.",
+      "Walk slowly to the table."
+    ],
+    "benefits": [
+      "Balance",
+      "Concentration",
+      "Independence"
+    ],
+    "cleanup": "Empty the cup and store the tray.",
+    "isFree": false
+  },
+  {
+    "slug": "opening-jars",
+    "title": "Opening Containers",
+    "category": "Practical Life",
+    "ageMin": 24,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Practice opening and closing different lids and containers.",
+    "materials": [
+      "A basket of clean containers with lids (screw, snap, pop)"
+    ],
+    "steps": [
+      "Set containers on the floor.",
+      "Show twisting or popping each lid.",
+      "Encourage your child to try each one."
+    ],
+    "benefits": [
+      "Wrist rotation",
+      "Problem solving",
+      "Independence"
+    ],
+    "cleanup": "Close each container and return to the basket.",
+    "isFree": false
+  },
+  {
+    "slug": "dressing-doll",
+    "title": "Dressing a Doll",
+    "category": "Practical Life",
+    "ageMin": 24,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Practice taking clothes on and off a soft doll.",
+    "materials": [
+      "A soft doll",
+      "2–3 simple doll outfits"
+    ],
+    "steps": [
+      "Sit with the doll on a mat.",
+      "Show pulling a shirt over the doll's head.",
+      "Try pants, socks, hat."
+    ],
+    "benefits": [
+      "Self-dressing prep",
+      "Sequencing",
+      "Hand control"
+    ],
+    "cleanup": "Fold the clothes and put doll to bed.",
+    "isFree": false
+  },
+  {
+    "slug": "body-parts",
+    "title": "Naming Body Parts",
+    "category": "Language",
+    "ageMin": 12,
+    "duration": 5,
+    "mess": "Low",
+    "summary": "Point to and name body parts during diaper changes or bath time.",
+    "materials": [
+      "Just your child and yourself"
+    ],
+    "steps": [
+      "Say 'this is your nose' and touch it.",
+      "Pause and look for a response.",
+      "Move to ears, toes, tummy."
+    ],
+    "benefits": [
+      "Body vocabulary",
+      "Joint attention",
+      "Bonding"
+    ],
+    "cleanup": "Carry on naming throughout your day.",
+    "isFree": false
+  },
+  {
+    "slug": "song-actions",
+    "title": "Song With Actions",
+    "category": "Language",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Sing 'Wheels on the Bus' or 'Itsy Bitsy Spider' with hand actions.",
+    "materials": [
+      "Just your voice"
+    ],
+    "steps": [
+      "Sit facing your child.",
+      "Sing slowly and do each action big.",
+      "Pause and look — invite them to copy."
+    ],
+    "benefits": [
+      "Language rhythm",
+      "Imitation",
+      "Memory"
+    ],
+    "cleanup": "Round off with a cuddle.",
+    "isFree": false
+  },
+  {
+    "slug": "animal-sounds",
+    "title": "Animal Sound Matching",
+    "category": "Language",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Match toy animals with their sounds: 'moo', 'baa', 'quack'.",
+    "materials": [
+      "A few toy farm or zoo animals"
+    ],
+    "steps": [
+      "Hold up one animal.",
+      "Say its name and make its sound.",
+      "Pause for your child to copy.",
+      "Move on to the next."
+    ],
+    "benefits": [
+      "Vocabulary",
+      "Imitation",
+      "Listening"
+    ],
+    "cleanup": "Return animals to the basket.",
+    "isFree": false
+  },
+  {
+    "slug": "naming-basket",
+    "title": "Object Basket Naming",
+    "category": "Language",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Pull familiar everyday objects from a basket and name each one.",
+    "materials": [
+      "A small basket",
+      "5–6 real household objects (spoon, brush, cup)"
+    ],
+    "steps": [
+      "Sit together with the basket.",
+      "Pull out one item.",
+      "Name it clearly and let your child explore it.",
+      "Move to the next."
+    ],
+    "benefits": [
+      "Real-object vocabulary",
+      "Joint attention",
+      "Curiosity"
+    ],
+    "cleanup": "Return items to the basket.",
+    "isFree": false
+  },
+  {
+    "slug": "emotion-faces",
+    "title": "Emotion Faces",
+    "category": "Language",
+    "ageMin": 24,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Look at photos of faces and name the feeling: happy, sad, surprised.",
+    "materials": [
+      "Printed photos or a feelings book"
+    ],
+    "steps": [
+      "Sit and look at one face at a time.",
+      "Name the feeling: 'she is happy'.",
+      "Make the face together in a mirror."
+    ],
+    "benefits": [
+      "Emotional vocabulary",
+      "Empathy",
+      "Self-awareness"
+    ],
+    "cleanup": "Store the photos or book on the shelf.",
+    "isFree": false
+  },
+  {
+    "slug": "picture-card-sort",
+    "title": "Picture Card Sorting",
+    "category": "Language",
+    "ageMin": 24,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Sort picture cards into groups: animals, food, vehicles.",
+    "materials": [
+      "A set of picture cards",
+      "3 small baskets"
+    ],
+    "steps": [
+      "Label each basket out loud.",
+      "Show sorting one card into the right basket.",
+      "Hand cards to your child one at a time."
+    ],
+    "benefits": [
+      "Categorizing",
+      "Vocabulary",
+      "Logic"
+    ],
+    "cleanup": "Stack the cards and store the baskets.",
+    "isFree": false
+  },
+  {
+    "slug": "story-stones",
+    "title": "Story Stones",
+    "category": "Language",
+    "ageMin": 24,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Pull painted stones from a bag and make up a story together.",
+    "materials": [
+      "5–6 small painted stones (cat, sun, house, tree)",
+      "A drawstring bag"
+    ],
+    "steps": [
+      "Pull one stone out.",
+      "Say a sentence: 'Once there was a cat…'.",
+      "Pull another and continue."
+    ],
+    "benefits": [
+      "Storytelling",
+      "Vocabulary",
+      "Imagination"
+    ],
+    "cleanup": "Drop stones back in the bag.",
+    "isFree": false
+  },
+  {
+    "slug": "nursery-rhyme-time",
+    "title": "Nursery Rhyme Time",
+    "category": "Language",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Sing a familiar nursery rhyme and pause for your child to fill in the missing word.",
+    "materials": [
+      "Just your voice"
+    ],
+    "steps": [
+      "Sing 'Twinkle Twinkle Little ___' slowly.",
+      "Pause and look.",
+      "Celebrate any attempt to fill in."
+    ],
+    "benefits": [
+      "Anticipation",
+      "Word recall",
+      "Joy"
+    ],
+    "cleanup": "Finish with a hug.",
+    "isFree": false
+  },
+  {
+    "slug": "peekaboo-objects",
+    "title": "Peekaboo Object Reveal",
+    "category": "Language",
+    "ageMin": 12,
+    "duration": 5,
+    "mess": "Low",
+    "summary": "Hide a familiar object under a cloth and name it as you reveal it.",
+    "materials": [
+      "A small cloth",
+      "3 familiar toys"
+    ],
+    "steps": [
+      "Place a toy under the cloth.",
+      "Say 'where's the ball?'",
+      "Pull the cloth — 'there it is!'",
+      "Repeat with each toy."
+    ],
+    "benefits": [
+      "Object permanence",
+      "Vocabulary",
+      "Anticipation"
+    ],
+    "cleanup": "Tuck items back in the basket.",
+    "isFree": false
+  },
+  {
+    "slug": "simple-commands",
+    "title": "Follow a Simple Command",
+    "category": "Language",
+    "ageMin": 18,
+    "duration": 5,
+    "mess": "Low",
+    "summary": "Give one short instruction: 'bring me the cup', 'put the ball in the box'.",
+    "materials": [
+      "Familiar objects within reach"
+    ],
+    "steps": [
+      "Get your child's attention.",
+      "Give one clear short instruction.",
+      "Wait and celebrate the response."
+    ],
+    "benefits": [
+      "Listening",
+      "Comprehension",
+      "Confidence"
+    ],
+    "cleanup": "Return objects to their place.",
+    "isFree": false
+  },
+  {
+    "slug": "food-naming",
+    "title": "Food Naming Tray",
+    "category": "Language",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Name fruits and veggies one by one on a tray at snack time.",
+    "materials": [
+      "A divided tray",
+      "Pieces of 3–4 fruits/veggies"
+    ],
+    "steps": [
+      "Set the tray in front of your child.",
+      "Point and name each food.",
+      "Eat together and chat about colors."
+    ],
+    "benefits": [
+      "Food vocabulary",
+      "Color words",
+      "Joint attention"
+    ],
+    "cleanup": "Eat the snack and wash the tray.",
+    "isFree": false
+  },
+  {
+    "slug": "family-photos",
+    "title": "Family Photo Talk",
+    "category": "Language",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Look through a small album of family faces and name each person.",
+    "materials": [
+      "A small photo album with familiar faces"
+    ],
+    "steps": [
+      "Sit together with the book.",
+      "Turn to one photo.",
+      "Say 'this is Grandma' — pause.",
+      "Turn the page together."
+    ],
+    "benefits": [
+      "Naming",
+      "Belonging",
+      "Memory"
+    ],
+    "cleanup": "Place the album back on the shelf.",
+    "isFree": false
+  },
+  {
+    "slug": "sound-bag",
+    "title": "Sound Guess Bag",
+    "category": "Language",
+    "ageMin": 24,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Make a sound with a hidden object and guess what it is.",
+    "materials": [
+      "A cloth bag",
+      "3 noisy items (keys, bell, paper)"
+    ],
+    "steps": [
+      "Put an item in the bag.",
+      "Make its sound out of sight.",
+      "Pull it out and name it together."
+    ],
+    "benefits": [
+      "Listening",
+      "Vocabulary",
+      "Curiosity"
+    ],
+    "cleanup": "Return items to the basket.",
+    "isFree": false
+  },
+  {
+    "slug": "animal-stories",
+    "title": "Animal Figure Stories",
+    "category": "Language",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Use toy animals to act out a simple two-line story.",
+    "materials": [
+      "3–4 toy animals",
+      "A small play mat"
+    ],
+    "steps": [
+      "Set animals on the mat.",
+      "Say 'the cow eats grass' and move it.",
+      "Invite your child to make the cow walk too."
+    ],
+    "benefits": [
+      "Sentence building",
+      "Imagination",
+      "Pretend play"
+    ],
+    "cleanup": "Return animals to the shelf.",
+    "isFree": false
+  },
+  {
+    "slug": "echo-game",
+    "title": "Echo Words",
+    "category": "Language",
+    "ageMin": 12,
+    "duration": 5,
+    "mess": "Low",
+    "summary": "Say a fun sound or word and pause for your child to copy.",
+    "materials": [
+      "Just your voice"
+    ],
+    "steps": [
+      "Get face to face.",
+      "Say a clear sound: 'baba', 'moo', 'up!'",
+      "Pause and smile expectantly."
+    ],
+    "benefits": [
+      "Speech imitation",
+      "Turn-taking",
+      "Connection"
+    ],
+    "cleanup": "Round off with a tickle.",
+    "isFree": false
+  },
+  {
+    "slug": "mirror-talk",
+    "title": "Mirror Conversation",
+    "category": "Language",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Sit with your child at a mirror and narrate what you both do.",
+    "materials": [
+      "A child-safe mirror"
+    ],
+    "steps": [
+      "Sit with the mirror in front.",
+      "Say 'we are smiling, I see your nose'.",
+      "Make faces and name them."
+    ],
+    "benefits": [
+      "Self-awareness",
+      "Vocabulary",
+      "Bonding"
+    ],
+    "cleanup": "Wipe the mirror and put away.",
+    "isFree": false
+  },
+  {
+    "slug": "book-flip-name",
+    "title": "Book Flip & Name",
+    "category": "Language",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Flip through a board book and name one item per page.",
+    "materials": [
+      "A favorite board book"
+    ],
+    "steps": [
+      "Sit together with the book.",
+      "Open one page.",
+      "Point and clearly name one thing.",
+      "Turn the page."
+    ],
+    "benefits": [
+      "Vocabulary",
+      "Pointing",
+      "Routine"
+    ],
+    "cleanup": "Return the book to the shelf.",
+    "isFree": false
+  },
+  {
+    "slug": "sequencing-cards",
+    "title": "Sequencing Cards",
+    "category": "Language",
+    "ageMin": 30,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Put three picture cards in order to tell a simple story (wake up, eat, play).",
+    "materials": [
+      "A 3-step sequence card set"
+    ],
+    "steps": [
+      "Shuffle the three cards.",
+      "Lay them face up.",
+      "Talk through which comes first.",
+      "Arrange together left to right."
+    ],
+    "benefits": [
+      "Sequencing",
+      "Storytelling",
+      "Logic"
+    ],
+    "cleanup": "Stack the cards and store flat.",
+    "isFree": false
+  },
+  {
+    "slug": "weather-words",
+    "title": "Weather Words",
+    "category": "Language",
+    "ageMin": 18,
+    "duration": 5,
+    "mess": "Low",
+    "summary": "Look out the window each morning and name the weather.",
+    "materials": [
+      "A window"
+    ],
+    "steps": [
+      "Walk to the window together.",
+      "Say 'it is sunny / cloudy / rainy'.",
+      "Make a hand motion for each — sun, rain falling."
+    ],
+    "benefits": [
+      "Daily vocabulary",
+      "Observation",
+      "Routine"
+    ],
+    "cleanup": "Return to your morning routine.",
+    "isFree": false
+  },
+  {
+    "slug": "finger-rhyme",
+    "title": "Finger Counting Rhyme",
+    "category": "Language",
+    "ageMin": 18,
+    "duration": 5,
+    "mess": "Low",
+    "summary": "Recite '1, 2, 3, 4, 5 — once I caught a fish alive' tapping each finger.",
+    "materials": [
+      "Just your hands"
+    ],
+    "steps": [
+      "Hold up your hand.",
+      "Tap each finger as you count.",
+      "Slow the rhyme and pause for your child to copy."
+    ],
+    "benefits": [
+      "Counting",
+      "Rhyme",
+      "Finger awareness"
+    ],
+    "cleanup": "Round off with a high five.",
+    "isFree": false
+  },
+  {
+    "slug": "animal-walk-parade",
+    "title": "Animal Walk Parade",
+    "category": "Physical",
+    "ageMin": 18,
+    "duration": 5,
+    "mess": "Low",
+    "summary": "Stomp like an elephant, hop like a bunny and waddle like a duck across the room together.",
+    "materials": [
+      "Open floor space",
+      "Optional animal flashcards"
+    ],
+    "steps": [
+      "Pick three animals to start.",
+      "Demonstrate each walk — bear crawl, bunny hop, duck waddle.",
+      "Call out one animal and move together across the room.",
+      "Switch animals every few steps."
+    ],
+    "benefits": [
+      "Gross motor strength",
+      "Imitation",
+      "Body awareness",
+      "Bonding"
+    ],
+    "cleanup": "Flop down for a cuddle when the parade is done.",
+    "isFree": false
+  },
+  {
+    "slug": "couch-cushion-mountain",
+    "title": "Couch Cushion Mountain",
+    "category": "Physical",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Build a soft cushion pile and climb, crawl and tumble safely with a grown-up spotting.",
+    "materials": [
+      "3–6 couch cushions or pillows",
+      "A rug or carpet underneath"
+    ],
+    "steps": [
+      "Pile cushions on the floor against the couch.",
+      "Show your child how to climb up on hands and knees.",
+      "Spot them as they crawl over and slide down.",
+      "Rebuild and repeat."
+    ],
+    "benefits": [
+      "Balance",
+      "Coordination",
+      "Confidence",
+      "Core strength"
+    ],
+    "cleanup": "Stack cushions back on the couch together.",
+    "isFree": false
+  },
+  {
+    "slug": "dance-freeze",
+    "title": "Dance Party Freeze",
+    "category": "Physical",
+    "ageMin": 18,
+    "duration": 5,
+    "mess": "Low",
+    "summary": "Play a favourite song, dance freely, then freeze every time the music stops.",
+    "materials": [
+      "A phone or speaker",
+      "Open space"
+    ],
+    "steps": [
+      "Start the music and dance together.",
+      "Pause the song and call 'freeze!'",
+      "Hold still until the music returns.",
+      "Vary the speed — slow stretchy moves to fast wiggles."
+    ],
+    "benefits": [
+      "Gross motor",
+      "Listening",
+      "Self-regulation",
+      "Joy"
+    ],
+    "cleanup": "End with a slow song and a snuggle.",
+    "isFree": false
+  },
+  {
+    "slug": "balloon-keep-up",
+    "title": "Balloon Keep-It-Up",
+    "category": "Physical",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Tap a balloon back and forth to keep it from touching the floor.",
+    "materials": [
+      "1 inflated balloon",
+      "Open space, away from breakables"
+    ],
+    "steps": [
+      "Toss the balloon gently into the air.",
+      "Show your child how to tap it back up with one hand.",
+      "Count out loud each time it gets tapped.",
+      "Try with two hands, then with feet."
+    ],
+    "benefits": [
+      "Hand-eye coordination",
+      "Reaction time",
+      "Tracking",
+      "Turn taking"
+    ],
+    "cleanup": "Pop and bin the balloon when finished — never store deflated.",
+    "isFree": false
+  },
+  {
+    "slug": "obstacle-course",
+    "title": "Living Room Obstacle Course",
+    "category": "Physical",
+    "ageMin": 24,
+    "duration": 15,
+    "mess": "Low",
+    "summary": "Crawl under chairs, jump over pillows and balance along a tape line.",
+    "materials": [
+      "Cushions",
+      "Masking tape",
+      "Dining chairs or a small tunnel"
+    ],
+    "steps": [
+      "Lay tape in a straight line on the floor.",
+      "Set up a pillow to jump over and a chair to crawl under.",
+      "Walk the course with your child once, narrating each step.",
+      "Let them run it solo and time them with claps."
+    ],
+    "benefits": [
+      "Balance",
+      "Planning",
+      "Gross motor",
+      "Spatial awareness"
+    ],
+    "cleanup": "Roll up the tape and stack cushions away.",
+    "isFree": false
+  },
+  {
+    "slug": "ball-roll-catch",
+    "title": "Sit & Roll Ball",
+    "category": "Physical",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Sit on the floor facing each other and roll a soft ball back and forth.",
+    "materials": [
+      "A soft fabric or playground ball",
+      "Open floor space"
+    ],
+    "steps": [
+      "Sit facing your child with legs in a V.",
+      "Roll the ball slowly toward their hands.",
+      "Cheer when they catch and roll it back.",
+      "Widen the gap as their aim improves."
+    ],
+    "benefits": [
+      "Hand-eye coordination",
+      "Turn taking",
+      "Tracking",
+      "Bonding"
+    ],
+    "cleanup": "Tuck the ball back in the toy basket.",
+    "isFree": false
+  },
+  {
+    "slug": "tunnel-crawl",
+    "title": "Tunnel Crawl",
+    "category": "Physical",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Crawl through a play tunnel or a row of dining chairs draped with a blanket.",
+    "materials": [
+      "A play tunnel OR 2 chairs and a blanket"
+    ],
+    "steps": [
+      "Set up the tunnel on a soft surface.",
+      "Crouch at one end and call your child through.",
+      "Take turns crawling in opposite directions.",
+      "Hide a soft toy inside as a surprise."
+    ],
+    "benefits": [
+      "Gross motor",
+      "Cross-body coordination",
+      "Object permanence",
+      "Confidence"
+    ],
+    "cleanup": "Fold the blanket and put chairs back.",
+    "isFree": false
+  },
+  {
+    "slug": "bubble-chase",
+    "title": "Bubble Chase",
+    "category": "Physical",
+    "ageMin": 12,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Blow bubbles outside and let your toddler chase, pop and stomp them.",
+    "materials": [
+      "Bubble solution and wand",
+      "Outdoor space"
+    ],
+    "steps": [
+      "Step outside to a safe open area.",
+      "Blow a stream of bubbles low to the ground.",
+      "Encourage your child to pop them with hands then feet.",
+      "Take turns being the blower."
+    ],
+    "benefits": [
+      "Running",
+      "Tracking",
+      "Hand-eye coordination",
+      "Outdoor play"
+    ],
+    "cleanup": "Cap the bubbles and wipe sticky hands.",
+    "isFree": false
+  },
+  {
+    "slug": "ribbon-twirl",
+    "title": "Ribbon Twirl Dance",
+    "category": "Physical",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Wave long ribbons through the air to music — big circles, little wiggles, high and low.",
+    "materials": [
+      "2 long ribbons taped to short sticks",
+      "Music"
+    ],
+    "steps": [
+      "Hand your child one ribbon and keep one yourself.",
+      "Mirror each other's moves — circles, waves, figure eights.",
+      "Move ribbons high then low, fast then slow.",
+      "Dance around the room together."
+    ],
+    "benefits": [
+      "Gross motor",
+      "Bilateral coordination",
+      "Rhythm",
+      "Creativity"
+    ],
+    "cleanup": "Wind ribbons around their sticks and store flat.",
+    "isFree": false
+  },
+  {
+    "slug": "stepping-stones",
+    "title": "Paper Stepping Stones",
+    "category": "Physical",
+    "ageMin": 18,
+    "duration": 10,
+    "mess": "Low",
+    "summary": "Step from one paper 'stone' to the next without touching the 'water' floor.",
+    "materials": [
+      "6–8 sheets of paper or felt squares"
+    ],
+    "steps": [
+      "Lay the papers in a winding path on the floor.",
+      "Hold your child's hand for the first try.",
+      "Step from stone to stone — narrate 'jump, balance, hop'.",
+      "Rearrange the path for a new challenge."
+    ],
+    "benefits": [
+      "Balance",
+      "Planning",
+      "Gross motor",
+      "Confidence"
+    ],
+    "cleanup": "Stack the papers and reuse next time.",
+    "isFree": false
+  }
+]

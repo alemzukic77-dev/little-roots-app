@@ -1,0 +1,51 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    // Public catalog — writes only via Admin SDK / Cloud Functions
+    match /activities/{slug} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /categories/{id} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /users/{uid} {
+      allow read: if signedIn() && request.auth.uid == uid;
+      allow create, update: if signedIn() && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(['name', 'email', 'photoUrl', 'provider', 'createdAt'])
+        && request.resource.data.name is string
+        && request.resource.data.name.size() >= 3
+        && request.resource.data.name.size() <= 50;
+      allow delete: if signedIn() && request.auth.uid == uid;
+
+      match /saves/{slug} {
+        allow read, delete: if signedIn() && request.auth.uid == uid;
+        allow create: if signedIn() && request.auth.uid == uid
+          && exists(/databases/$(database)/documents/activities/$(slug));
+      }
+    }
+
+    // One rating per user per activity, enforced by composite doc ID
+    match /ratings/{id} {
+      allow read: if true;
+      allow create, update: if signedIn()
+        && id == request.auth.uid + '_' + request.resource.data.slug
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.keys().hasOnly(['uid', 'slug', 'stars', 'createdAt', 'updatedAt'])
+        && request.resource.data.stars is int
+        && request.resource.data.stars >= 1
+        && request.resource.data.stars <= 5
+        && exists(/databases/$(database)/documents/activities/$(request.resource.data.slug));
+      allow delete: if signedIn() && resource.data.uid == request.auth.uid;
+    }
+  }
+}

@@ -41,3 +41,21 @@ example
 # generated native folders
 /ios
 /android
+
+# Firebase configs are required by EAS Build (native init), so they are NOT ignored.
+# They are client-side config bundled into the app, not server secrets.
+scripts/seed/assets/
+scripts/seed/node_modules/
+functions/node_modules/
+
+# Signing credentials (do not commit)
+credentials/
+credentials.json
+
+# Build artifacts & internal notes (keep out of repo)
+build/
+*.ipa
+IOS-SUBMISSION.md
+
+# Rendered animation outputs (97MB, hosted on Firebase Storage) — keep source only
+video/out/

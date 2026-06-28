@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "403630485123",
+    "project_id": "little-roots-montessori-200ce",
+    "storage_bucket": "little-roots-montessori-200ce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403630485123:android:8ec2e9341b464e959a75b6",
+        "android_client_info": {
+          "package_name": "co.littleroots.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403630485123-fpfug6cv5qo09h4ct57qv9pi6nmkruej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCswEsau2paMHnzKSgj-976sZbxmVJNQtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403630485123-fpfug6cv5qo09h4ct57qv9pi6nmkruej.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "403630485123-rs8qev2v9kcr98q38ce3tk3oi1ingovk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.littleroots.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

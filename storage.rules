@@ -1,0 +1,11 @@
+rules_version = '2';
+
+// All reads happen via tokenized download URLs baked into Firestore docs,
+// so the SDK-level rules can stay fully closed.
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
