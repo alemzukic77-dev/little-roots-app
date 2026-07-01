@@ -25,7 +25,6 @@
       },
       "ios": {
         "image": "latest",
-        "resourceClass": "large",
         "buildConfiguration": "Release",
         "autoIncrement": "buildNumber",
         "credentialsSource": "local"
