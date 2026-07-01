@@ -1,0 +1,6 @@
+# Not needed by the app bundle — keeps the EAS upload lean
+video/
+scripts/
+functions/
+ios/build/
+*.log

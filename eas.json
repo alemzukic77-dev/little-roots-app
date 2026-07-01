@@ -20,8 +20,12 @@
     },
     "production": {
       "distribution": "store",
+      "env": {
+        "NODE_OPTIONS": "--max-old-space-size=8192"
+      },
       "ios": {
         "image": "latest",
+        "resourceClass": "large",
         "buildConfiguration": "Release",
         "autoIncrement": "buildNumber",
         "credentialsSource": "local"
