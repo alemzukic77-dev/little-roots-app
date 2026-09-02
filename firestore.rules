@@ -32,6 +32,29 @@ service cloud.firestore {
         allow create: if signedIn() && request.auth.uid == uid
           && exists(/databases/$(database)/documents/activities/$(slug));
       }
+
+      // Private per-activity progress: "done" flag + a short journal note
+      match /progress/{slug} {
+        allow read, delete: if signedIn() && request.auth.uid == uid;
+        allow create, update: if signedIn() && request.auth.uid == uid
+          && request.resource.data.keys().hasOnly(['done', 'note', 'doneAt', 'updatedAt'])
+          && (!('done' in request.resource.data) || request.resource.data.done is bool)
+          && (!('note' in request.resource.data)
+              || (request.resource.data.note is string && request.resource.data.note.size() <= 500));
+      }
+
+      // Child profiles (name + age in months) — private to the parent
+      match /children/{id} {
+        allow read, delete: if signedIn() && request.auth.uid == uid;
+        allow create, update: if signedIn() && request.auth.uid == uid
+          && request.resource.data.keys().hasOnly(['name', 'ageMonths', 'createdAt'])
+          && request.resource.data.name is string
+          && request.resource.data.name.size() >= 1
+          && request.resource.data.name.size() <= 30
+          && request.resource.data.ageMonths is int
+          && request.resource.data.ageMonths >= 6
+          && request.resource.data.ageMonths <= 72;
+      }
     }
 
     // One rating per user per activity, enforced by composite doc ID

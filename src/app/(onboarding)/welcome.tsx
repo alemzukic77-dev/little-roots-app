@@ -7,6 +7,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { FloatingCircle } from "@/components/onboarding/FloatingCircle";
 import { Button } from "@/components/ui/Button";
 import { useActivities } from "@/hooks/useActivities";
+import { continueAsGuest } from "@/lib/auth";
 import { colors, font } from "@/theme/tokens";
 
 export default function WelcomeScreen() {
@@ -39,6 +40,14 @@ export default function WelcomeScreen() {
 
       <Animated.View entering={FadeInDown.delay(600).duration(500)} style={styles.footer}>
         <Button label="Get started" onPress={() => router.push("/(auth)/sign-up")} />
+        <Text
+          style={styles.guest}
+          onPress={() => {
+            continueAsGuest();
+            router.replace("/(tabs)");
+          }}>
+          Explore without an account
+        </Text>
         <Text style={styles.signIn} onPress={() => router.push("/(auth)/sign-in")}>
           I already have an account
         </Text>
@@ -89,6 +98,13 @@ const styles = StyleSheet.create({
     paddingTop: 24,
     paddingBottom: 20,
     gap: 12,
+  },
+  guest: {
+    textAlign: "center",
+    fontFamily: font.bold,
+    fontSize: 15,
+    color: colors.ink,
+    padding: 8,
   },
   signIn: {
     textAlign: "center",

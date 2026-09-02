@@ -7,11 +7,13 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { useActivities } from "@/hooks/useActivities";
 import { useSaves } from "@/hooks/useSaves";
+import { useAuth } from "@/lib/auth";
 import { colors, font, radius, shadow } from "@/theme/tokens";
 import type { Activity } from "@/types/activity";
 
 export default function SavedScreen() {
   const router = useRouter();
+  const { user } = useAuth();
   const { data: activities } = useActivities();
   const { savedSlugs, toggleSave } = useSaves();
 
@@ -23,7 +25,20 @@ export default function SavedScreen() {
   return (
     <SafeAreaView style={styles.screen} edges={["top"]}>
       <Text style={styles.heading}>Saved</Text>
-      {saved.length === 0 ? (
+      {!user ? (
+        <View style={styles.empty}>
+          <View style={styles.emptyIcon}>
+            <Ionicons name="bookmark-outline" size={30} color={colors.ember} />
+          </View>
+          <Text style={styles.emptyTitle}>Save your favourites</Text>
+          <Text style={styles.emptyText}>
+            Sign in to bookmark activities and find them here later.
+          </Text>
+          <Text style={styles.emptyAction} onPress={() => router.push("/(auth)/sign-in")}>
+            Sign in
+          </Text>
+        </View>
+      ) : saved.length === 0 ? (
         <View style={styles.empty}>
           <View style={styles.emptyIcon}>
             <Ionicons name="bookmark-outline" size={30} color={colors.ember} />
@@ -121,6 +136,13 @@ const styles = StyleSheet.create({
     lineHeight: 21,
     color: colors.sub,
     textAlign: "center",
+  },
+  emptyAction: {
+    fontFamily: font.bold,
+    fontSize: 15,
+    color: colors.ember,
+    padding: 10,
+    marginTop: 4,
   },
   card: {
     flex: 1,

@@ -47,8 +47,10 @@ export const Cat: React.FC<Props> = ({ frame, x, y, armAngle, tailSwish, earWigg
         <ellipse cx={12} cy={-150} rx={88} ry={125} fill={BODY} stroke={COLORS.ink} strokeWidth={6} />
         <ellipse cx={14} cy={-122} rx={52} ry={74} fill={INNER} />
 
-        {/* left front paw resting (right one holds the rod) */}
-        <rect x={-42} y={-100} width={32} height={92} rx={16} fill={BODY} stroke={COLORS.ink} strokeWidth={6} />
+        {/* left front arm — mirrors the working arm (same shoulder height + length) so the pair reads level */}
+        <g transform={`translate(-51 -205) rotate(-10)`}>
+          <rect x={-16} y={0} width={32} height={88} rx={16} fill={BODY} stroke={COLORS.ink} strokeWidth={6} />
+        </g>
 
         {/* ears — pointy triangles with inner */}
         <g transform={`translate(-12 -398) rotate(${-6 + earWiggle})`}>

@@ -41,9 +41,11 @@ export const Lion: React.FC<Props> = ({ frame, x, y, pawAngle, tailSwish, bounce
         <ellipse cx={20} cy={-150} rx={95} ry={130} fill={BODY} stroke={COLORS.ink} strokeWidth={6} />
         <ellipse cx={22} cy={-125} rx={58} ry={80} fill={MUZZLE} />
 
-        {/* resting front leg with paw */}
-        <rect x={-30} y={-105} width={34} height={100} rx={17} fill={BODY} stroke={COLORS.ink} strokeWidth={6} />
-        <ellipse cx={-13} cy={-8} rx={26} ry={15} fill={MUZZLE} stroke={COLORS.ink} strokeWidth={5} />
+        {/* resting front arm — mirrors the stamping paw (same shoulder height + length) so the pair reads level */}
+        <g transform={`translate(-45 -210) rotate(-12)`}>
+          <rect x={-19} y={0} width={38} height={105} rx={19} fill={BODY} stroke={COLORS.ink} strokeWidth={6} />
+          <ellipse cx={0} cy={105} rx={24} ry={16} fill={MUZZLE} stroke={COLORS.ink} strokeWidth={5} />
+        </g>
 
         {/* mane — scalloped ring behind the head */}
         <g transform="translate(45 -330)">

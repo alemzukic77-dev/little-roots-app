@@ -7,6 +7,7 @@ import { colors, shadow } from "@/theme/tokens";
 
 const ICONS: Record<string, { active: keyof typeof Ionicons.glyphMap; idle: keyof typeof Ionicons.glyphMap }> = {
   index: { active: "home", idle: "home-outline" },
+  learn: { active: "school", idle: "school-outline" },
   browse: { active: "search", idle: "search-outline" },
   saved: { active: "bookmark", idle: "bookmark-outline" },
   profile: { active: "person", idle: "person-outline" },

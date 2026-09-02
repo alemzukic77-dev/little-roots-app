@@ -1,5 +1,6 @@
 import { Ionicons } from "@expo/vector-icons";
 import * as AppleAuthentication from "expo-apple-authentication";
+import * as Linking from "expo-linking";
 import { Link, useRouter } from "expo-router";
 import { useState } from "react";
 import {
@@ -18,6 +19,9 @@ import { TextField } from "@/components/ui/TextField";
 import { signInWithApple, signInWithGoogle, signUpWithEmail } from "@/lib/auth";
 import { colors, font, radius } from "@/theme/tokens";
 import { friendlyAuthError } from "./sign-in";
+
+const PRIVACY_URL = "https://alemzukic77-dev.github.io/littleroots-legal/privacy/";
+const TERMS_URL = "https://alemzukic77-dev.github.io/littleroots-legal/terms/";
 
 export default function SignUpScreen() {
   const router = useRouter();
@@ -114,6 +118,18 @@ export default function SignUpScreen() {
             />
           )}
 
+          <Text style={styles.legal}>
+            By creating an account you agree to our{" "}
+            <Text style={styles.legalLink} onPress={() => Linking.openURL(TERMS_URL)}>
+              Terms of Service
+            </Text>{" "}
+            and{" "}
+            <Text style={styles.legalLink} onPress={() => Linking.openURL(PRIVACY_URL)}>
+              Privacy Policy
+            </Text>
+            .
+          </Text>
+
           <Text style={styles.footer}>
             Already have an account?{" "}
             <Link href="/(auth)/sign-in" style={styles.footerLink}>
@@ -181,8 +197,22 @@ const styles = StyleSheet.create({
     color: colors.ink,
   },
   appleButton: { height: 56 },
-  footer: {
+  legal: {
     marginTop: "auto",
+    textAlign: "center",
+    fontFamily: font.medium,
+    fontSize: 12,
+    lineHeight: 18,
+    color: colors.sub,
+    paddingHorizontal: 8,
+  },
+  legalLink: {
+    fontFamily: font.semibold,
+    color: colors.inkSoft,
+    textDecorationLine: "underline",
+  },
+  footer: {
+    marginTop: 16,
     textAlign: "center",
     fontFamily: font.medium,
     fontSize: 14,

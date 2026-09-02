@@ -17,6 +17,7 @@ import { useEffect, type ReactNode } from "react";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 import { AuthProvider, useAuth } from "@/lib/auth";
+import { useChildStore } from "@/stores/child";
 import { colors } from "@/theme/tokens";
 
 SplashScreen.preventAutoHideAsync();
@@ -35,7 +36,7 @@ const persister = createAsyncStoragePersister({ storage: AsyncStorage });
 
 /** Routes by app state: welcome (signed out) → auth → verify-email → tabs. */
 function AuthGate({ children, fontsLoaded }: { children: ReactNode; fontsLoaded: boolean }) {
-  const { user, initializing, needsVerification } = useAuth();
+  const { user, initializing, needsVerification, guest } = useAuth();
   const segments = useSegments() as string[];
   const router = useRouter();
 
@@ -44,8 +45,8 @@ function AuthGate({ children, fontsLoaded }: { children: ReactNode; fontsLoaded:
   useEffect(() => {
     if (!ready) return;
     const group = segments[0] as string | undefined;
-    if (!user && group !== "(onboarding)" && group !== "(auth)") {
-      // signed-out users always land on the welcome screen
+    if (!user && !guest && group !== "(onboarding)" && group !== "(auth)") {
+      // first-run, signed-out users land on the welcome screen (guests may browse)
       router.replace("/(onboarding)/welcome");
     } else if (user && needsVerification && segments[1] !== "verify-email") {
       router.replace("/(auth)/verify-email");
@@ -53,13 +54,17 @@ function AuthGate({ children, fontsLoaded }: { children: ReactNode; fontsLoaded:
       router.replace("/(tabs)");
     }
     SplashScreen.hideAsync();
-  }, [ready, user, needsVerification, segments, router]);
+  }, [ready, user, guest, needsVerification, segments, router]);
 
   if (!ready) return null;
   return <>{children}</>;
 }
 
 export default function RootLayout() {
+  useEffect(() => {
+    void useChildStore.getState().hydrate();
+  }, []);
+
   const [fontsLoaded] = useFonts({
     PlusJakartaSans_400Regular,
     PlusJakartaSans_500Medium,
@@ -72,7 +77,7 @@ export default function RootLayout() {
     <GestureHandlerRootView style={{ flex: 1 }}>
       <PersistQueryClientProvider
         client={queryClient}
-        persistOptions={{ persister, maxAge: 1000 * 60 * 60 * 24 * 7, buster: "v9" }}>
+        persistOptions={{ persister, maxAge: 1000 * 60 * 60 * 24 * 7, buster: "v10" }}>
         <AuthProvider>
           <StatusBar style="dark" />
           <AuthGate fontsLoaded={fontsLoaded}>
@@ -86,6 +91,26 @@ export default function RootLayout() {
               <Stack.Screen name="(onboarding)" />
               <Stack.Screen
                 name="activity/[slug]"
+                options={{ presentation: "modal", animation: "slide_from_bottom" }}
+              />
+              <Stack.Screen
+                name="letter/[letter]"
+                options={{ presentation: "modal", animation: "slide_from_bottom" }}
+              />
+              <Stack.Screen
+                name="number/[n]"
+                options={{ presentation: "modal", animation: "slide_from_bottom" }}
+              />
+              <Stack.Screen
+                name="shape/[id]"
+                options={{ presentation: "modal", animation: "slide_from_bottom" }}
+              />
+              <Stack.Screen
+                name="color/[id]"
+                options={{ presentation: "modal", animation: "slide_from_bottom" }}
+              />
+              <Stack.Screen
+                name="child/new"
                 options={{ presentation: "modal", animation: "slide_from_bottom" }}
               />
             </Stack>

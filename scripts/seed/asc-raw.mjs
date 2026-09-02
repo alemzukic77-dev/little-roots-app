@@ -1,0 +1,10 @@
+import { readFileSync } from "node:fs";
+import { createRequire } from "node:module";
+const require = createRequire(import.meta.url);
+const jwt = require("jsonwebtoken");
+const mkTok = () => jwt.sign({ iss:"2658663b-515b-4a57-a24c-53202c768e94", iat:Math.floor(Date.now()/1000), exp:Math.floor(Date.now()/1000)+900, aud:"appstoreconnect-v1" }, readFileSync("/Users/alemzukic/little-roots-app/credentials/AuthKey_U4P57L2LZK.p8","utf8"), { algorithm:"ES256", header:{alg:"ES256",kid:"U4P57L2LZK",typ:"JWT"} });
+const api = async p => { const r=await fetch("https://api.appstoreconnect.apple.com"+p,{headers:{Authorization:"Bearer "+mkTok()}}); return {s:r.status, j:await r.json()}; };
+console.log("NOW UTC:", new Date().toISOString());
+const bl = await api("/v1/apps/6784954206/builds?limit=10&sort=-uploadedDate&fields[builds]=version,expired,expirationDate,uploadedDate,processingState");
+console.log("=== ALL BUILDS (full dates) ===");
+(bl.j.data||[]).forEach(x=>{const a=x.attributes; console.log(` build ${a.version}: expired=${a.expired} state=${a.processingState}\n    uploaded=${a.uploadedDate}\n    expires =${a.expirationDate}`);});

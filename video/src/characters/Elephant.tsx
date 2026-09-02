@@ -43,8 +43,10 @@ export const Elephant: React.FC<Props> = ({ frame, x, y, armAngle, trunkCurl, ea
         <ellipse cx={-10} cy={-140} rx={115} ry={125} fill={BODY} stroke={COLORS.ink} strokeWidth={6} />
         <ellipse cx={-5} cy={-112} rx={62} ry={75} fill={INNER} />
 
-        {/* resting paw */}
-        <rect x={-52} y={-100} width={32} height={90} rx={16} fill={BODY} stroke={COLORS.ink} strokeWidth={6} />
+        {/* resting arm — mirrors the working arm (same shoulder height + length) so the pair reads level */}
+        <g transform={`translate(-82 -200) rotate(-10)`}>
+          <rect x={-17} y={0} width={34} height={92} rx={17} fill={BODY} stroke={COLORS.ink} strokeWidth={6} />
+        </g>
 
         {/* far ear (behind head) */}
         <g transform={`translate(-50 -330) rotate(${-earFlap})`}>

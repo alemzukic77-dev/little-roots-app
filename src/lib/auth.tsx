@@ -38,28 +38,42 @@ const useAuthStore = create<{
   user: AuthUser | null;
   initializing: boolean;
   version: number;
+  /** Browsing without an account — reading the public catalog only. */
+  guest: boolean;
 }>(() => ({
   user: null,
   initializing: true,
   version: 0,
+  guest: false,
 }));
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     return onAuthStateChanged(auth, (u) => {
-      useAuthStore.setState((s) => ({ user: u, initializing: false, version: s.version + 1 }));
+      useAuthStore.setState((s) => ({
+        user: u,
+        initializing: false,
+        version: s.version + 1,
+        guest: u ? false : s.guest, // signing in clears guest mode
+      }));
     });
   }, []);
 
   return <>{children}</>;
 }
 
+/** Enter the app without an account (catalog is public-readable). */
+export function continueAsGuest() {
+  useAuthStore.setState({ guest: true });
+}
+
 export function useAuth() {
-  const { user, initializing, version } = useAuthStore();
+  const { user, initializing, version, guest } = useAuthStore();
   return useMemo(
     () => ({
       user,
       initializing,
+      guest,
       /** Password-provider users must verify their email before entering the app. */
       needsVerification:
         !!user &&
@@ -68,7 +82,7 @@ export function useAuth() {
     }),
     // version forces recompute after user.reload() mutates the user in place
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [user, initializing, version],
+    [user, initializing, version, guest],
   );
 }
 
@@ -88,6 +102,18 @@ async function createProfile(user: AuthUser, name: string, provider: string) {
     provider,
     createdAt: serverTimestamp(),
   });
+}
+
+/** Update the signed-in user's display name (rules allow only the 'name' key to change). */
+export async function updateDisplayName(name: string) {
+  const user = auth.currentUser;
+  if (!user) throw new Error("You're not signed in.");
+  const trimmed = cleanName(name);
+  if (trimmed.length < 3) {
+    throw new Error("Please enter your name (at least 3 characters).");
+  }
+  await setDoc(doc(db, "users", user.uid), { name: trimmed }, { merge: true });
+  return trimmed;
 }
 
 /** For OAuth sign-ins: create a profile on first login (display name from the provider). */

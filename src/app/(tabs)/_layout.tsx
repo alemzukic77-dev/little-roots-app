@@ -12,6 +12,7 @@ export default function TabsLayout() {
         sceneStyle: { backgroundColor: colors.cream },
       }}>
       <Tabs.Screen name="index" />
+      <Tabs.Screen name="learn" />
       <Tabs.Screen name="browse" />
       <Tabs.Screen name="saved" />
       <Tabs.Screen name="profile" />

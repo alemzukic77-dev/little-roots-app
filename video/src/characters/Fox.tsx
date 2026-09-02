@@ -39,8 +39,11 @@ export const Fox: React.FC<Props> = ({ frame, x, y, armAngle, tailSwish, earWigg
         <ellipse cx={10} cy={-150} rx={88} ry={124} fill={BODY} stroke={COLORS.ink} strokeWidth={6} />
         <ellipse cx={12} cy={-120} rx={52} ry={74} fill={CHEST} />
 
-        {/* resting paw */}
-        <rect x={-44} y={-100} width={32} height={92} rx={16} fill={BODY} stroke={COLORS.ink} strokeWidth={6} />
+        {/* resting arm — mirrors the working arm (same shoulder height + length) so the pair reads level */}
+        <g transform={`translate(-52 -205) rotate(-10)`}>
+          <rect x={-16} y={0} width={32} height={88} rx={16} fill={BODY} stroke={COLORS.ink} strokeWidth={6} />
+          <circle cx={0} cy={88} r={14} fill={CHEST} />
+        </g>
 
         {/* ears — tall triangles, dark tips */}
         <g transform={`translate(-14 -398) rotate(${-8 + earWiggle})`}>

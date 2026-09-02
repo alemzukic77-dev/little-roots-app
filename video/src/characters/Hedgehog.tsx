@@ -51,8 +51,10 @@ export const Hedgehog: React.FC<Props> = ({ frame, x, y, armAngle, spikeWiggle, 
         {/* body + belly */}
         <ellipse cx={5} cy={-130} rx={105} ry={115} fill={BODY} stroke={COLORS.ink} strokeWidth={6} />
 
-        {/* resting paw */}
-        <rect x={-40} y={-95} width={30} height={85} rx={15} fill={BODY} stroke={COLORS.ink} strokeWidth={6} />
+        {/* resting arm — mirrors the working arm (same shoulder height + length) so the pair reads level */}
+        <g transform={`translate(-50 -110) rotate(-10)`}>
+          <rect x={-15} y={0} width={30} height={75} rx={15} fill={BODY} stroke={COLORS.ink} strokeWidth={6} />
+        </g>
 
         {/* face — pointed snout to the right */}
         <g transform={`scale(1 ${blink})`} transform-origin="40 -190">

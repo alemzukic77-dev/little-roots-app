@@ -1,6 +1,7 @@
 import { Ionicons } from "@expo/vector-icons";
 import { useLocalSearchParams, useRouter } from "expo-router";
-import { ActivityIndicator, Pressable, StyleSheet, Text, View, useWindowDimensions } from "react-native";
+import { useEffect, useState } from "react";
+import { ActivityIndicator, Alert, Pressable, StyleSheet, Text, TextInput, View, useWindowDimensions } from "react-native";
 import Animated, {
   interpolate,
   useAnimatedRef,
@@ -12,8 +13,10 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { ActivityMedia } from "@/components/activity/ActivityMedia";
 import { RatingStars } from "@/components/activity/RatingStars";
 import { useActivity, useLiveAggregates } from "@/hooks/useActivity";
+import { useProgress } from "@/hooks/useProgress";
 import { useMyRating } from "@/hooks/useRating";
 import { useSaves } from "@/hooks/useSaves";
+import { useAuth } from "@/lib/auth";
 import { shareActivity } from "@/lib/links";
 import { colors, font, radius, shadow } from "@/theme/tokens";
 
@@ -24,10 +27,27 @@ export default function ActivityDetailScreen() {
   const { width } = useWindowDimensions();
   const heroHeight = width * 0.85;
 
+  const { user } = useAuth();
   const { data: activity, isPending } = useActivity(slug);
   const agg = useLiveAggregates(slug);
   const { myStars, rate } = useMyRating(slug);
   const { savedSlugs, toggleSave } = useSaves();
+  const { done, note, setDone, setNote } = useProgress(slug);
+  const [noteDraft, setNoteDraft] = useState("");
+  useEffect(() => setNoteDraft(note), [note]);
+
+  const promptSignIn = () =>
+    Alert.alert(
+      "Sign in to continue",
+      "Create a free account to save activities and rate them.",
+      [
+        { text: "Not now", style: "cancel" },
+        { text: "Sign in", onPress: () => router.push("/(auth)/sign-in") },
+      ],
+    );
+  const onToggleSave = (slugToSave: string) => (user ? toggleSave(slugToSave) : promptSignIn());
+  const onRate = (stars: number) => (user ? rate(stars) : promptSignIn());
+  const onToggleDone = () => (user ? setDone(!done) : promptSignIn());
 
   const scrollRef = useAnimatedRef<Animated.ScrollView>();
   const scrollY = useScrollOffset(scrollRef);
@@ -115,13 +135,42 @@ export default function ActivityDetailScreen() {
             </View>
           </View>
 
+          <View style={styles.trackBlock}>
+            <Pressable
+              accessibilityRole="button"
+              onPress={onToggleDone}
+              style={({ pressed }) => [styles.doneBtn, done && styles.doneBtnActive, pressed && { opacity: 0.9 }]}>
+              <Ionicons
+                name={done ? "checkmark-circle" : "checkmark-circle-outline"}
+                size={20}
+                color={done ? colors.white : colors.ember}
+              />
+              <Text style={[styles.doneText, done && { color: colors.white }]}>
+                {done ? "Done — nice work!" : "Mark as done"}
+              </Text>
+            </Pressable>
+            {user && (
+              <TextInput
+                style={styles.noteInput}
+                placeholder="Add a private note — how did it go?"
+                placeholderTextColor={colors.sub}
+                multiline
+                value={noteDraft}
+                onChangeText={setNoteDraft}
+                onBlur={() => {
+                  if (noteDraft !== note) setNote(noteDraft);
+                }}
+              />
+            )}
+          </View>
+
           <View style={styles.ratingBlock}>
             <Text style={styles.sectionTitle}>How did it go?</Text>
             <RatingStars
               myStars={myStars}
               avgRating={agg?.avgRating ?? activity.avgRating}
               ratingCount={agg?.ratingCount ?? activity.ratingCount}
-              onRate={rate}
+              onRate={onRate}
             />
           </View>
 
@@ -144,7 +193,7 @@ export default function ActivityDetailScreen() {
           <CircleButton
             icon={saved ? "bookmark" : "bookmark-outline"}
             active={saved}
-            onPress={() => toggleSave(activity.slug)}
+            onPress={() => onToggleSave(activity.slug)}
           />
           <CircleButton icon="share-outline" onPress={() => shareActivity(activity)} />
         </View>
@@ -331,6 +380,43 @@ const styles = StyleSheet.create({
     fontSize: 14,
     lineHeight: 21,
     color: colors.inkSoft,
+  },
+  trackBlock: {
+    marginTop: 26,
+    gap: 12,
+  },
+  doneBtn: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 8,
+    height: 52,
+    borderRadius: radius.button,
+    borderWidth: 1.5,
+    borderColor: colors.ember,
+    backgroundColor: colors.white,
+  },
+  doneBtnActive: {
+    backgroundColor: colors.ember,
+    borderColor: colors.ember,
+  },
+  doneText: {
+    fontFamily: font.bold,
+    fontSize: 15,
+    color: colors.ember,
+  },
+  noteInput: {
+    minHeight: 84,
+    backgroundColor: colors.white,
+    borderRadius: radius.inner,
+    borderWidth: 1,
+    borderColor: colors.line,
+    padding: 14,
+    fontFamily: font.medium,
+    fontSize: 14.5,
+    lineHeight: 21,
+    color: colors.ink,
+    textAlignVertical: "top",
   },
   ratingBlock: {
     marginTop: 30,

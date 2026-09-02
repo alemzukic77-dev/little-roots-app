@@ -18,11 +18,17 @@ const known = new Map<string, string>(); // remoteUrl -> local uri
 const inFlight = new Map<string, Promise<string>>();
 let dirReady: Promise<void> | null = null;
 
-// stable filename from the storage path (…/activities%2Fvideos%2F<slug>.mp4)
+// filename from the storage path (…/activities%2Fvideos%2F<slug>.mp4), tagged
+// with the download token so a re-uploaded asset (new token, same path) gets a
+// fresh local file instead of serving the stale cached one.
 function fileName(url: string): string {
   const m = url.match(/videos%2F([^?]+)/i) ?? url.match(/videos\/([^?]+)/i);
-  const base = m ? decodeURIComponent(m[1]) : encodeURIComponent(url).slice(-40);
-  return base.replace(/[^a-zA-Z0-9._-]/g, "_");
+  const raw = m ? decodeURIComponent(m[1]) : encodeURIComponent(url).slice(-40);
+  const safe = raw.replace(/[^a-zA-Z0-9._-]/g, "_");
+  const token = url.match(/[?&]token=([a-f0-9-]+)/i)?.[1]?.slice(0, 8);
+  if (!token) return safe;
+  const dot = safe.lastIndexOf(".");
+  return dot >= 0 ? `${safe.slice(0, dot)}__${token}${safe.slice(dot)}` : `${safe}__${token}`;
 }
 
 async function ensureDir() {
